@@ -1,0 +1,112 @@
+[
+  {
+    "id": "pekao-przekorzystne",
+    "bank": "Bank Pekao S.A.",
+    "account_name": "Konto Przekorzystne",
+    "affiliate_url": "https://tmlead.pl/redirect/338701._1134",
+    "source_url": "https://www.pekao.com.pl/klient-indywidualny/codzienne-bankowanie/konta-osobiste/konto-przekorzystne.html",
+    "partner_network": "Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "credit-agricole-dla-ciebie",
+    "bank": "Credit Agricole",
+    "account_name": "Konto dla Ciebie",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_2395",
+    "source_url": "https://www.credit-agricole.pl/klienci-indywidualni/konta/konto-dla-ciebie",
+    "partner_network": "Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "mbank-ekonto",
+    "bank": "mBank",
+    "account_name": "eKonto do usług",
+    "affiliate_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
+    "source_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "santander-konto",
+    "bank": "Santander Bank Polska",
+    "account_name": "Konto Santander",
+    "affiliate_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
+    "source_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "millennium-360",
+    "bank": "Bank Millennium",
+    "account_name": "Millennium 360°",
+    "affiliate_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
+    "source_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "ing-direct",
+    "bank": "ING Bank Śląski",
+    "account_name": "Konto z Lwem Direct",
+    "affiliate_url": "https://www.ing.pl/indywidualni/konta-osobiste/konto-direct",
+    "source_url": "https://www.ing.pl/indywidualni/konta-osobiste/konto-direct",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "nest-konto",
+    "bank": "Nest Bank",
+    "account_name": "Nest Konto",
+    "affiliate_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
+    "source_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "alior-jakze-osobiste",
+    "bank": "Alior Bank",
+    "account_name": "Konto Jakże Osobiste",
+    "affiliate_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
+    "source_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "velobank-velokonto",
+    "bank": "VeloBank",
+    "account_name": "VeloKonto",
+    "affiliate_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
+    "source_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "bnp-paribas-otwarte",
+    "bank": "BNP Paribas",
+    "account_name": "Konto Otwarte na Ciebie",
+    "affiliate_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
+    "source_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  },
+  {
+    "id": "pko-konto-za-zero",
+    "bank": "PKO Bank Polski",
+    "account_name": "PKO Konto za Zero",
+    "affiliate_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
+    "source_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
+    "partner_network": "Direct / Money2Money",
+    "partner_id": "338701",
+    "last_verified": "2026-10-08"
+  }
+]

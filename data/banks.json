@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "pekao-przekorzystne",
+    "slug": "pekao-konto-przekorzystne",
+    "bank": "Bank Pekao S.A.",
+    "account_name": "Konto Przekorzystne",
+    "badge": "Najwyższa Premia",
+    "rating": 9.6,
+    "rating_breakdown": {
+      "costs": 2.4,
+      "atms": 1.4,
+      "mobile_app": 1.9,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za prowadzenie konta dla każdego.",
+    "card_fee": "0 zł lub 4 zł",
+    "card_fee_condition": "0 zł przy min. 1 płatności kartą lub aplikacją PeoPay i jednorazowym wpływie min. 500 zł w miesiącu (inaczej 4 zł). Do 26 lat: bezwarunkowo 0 zł.",
+    "bonus": "do 2700 zł",
+    "bonus_short": "300 zł gwarantowanej premii gotówkowej + do 2400 zł zwrotów w promocji podróżnej",
+    "bonus_conditions": [
+      "Otwórz Konto Przekorzystne online z kartą debetową i bankowością PeoPay.",
+      "Zyskaj 300 zł za otwarcie konta przez internet / aplikację i spełnienie prostych warunków aktywności w kolejnych miesiącach.",
+      "Odbierz do 2400 zł zwrotu (cashback) za płatności kartą w Promocji Podróżnej.",
+      "Skorzystaj z promocyjnego oprocentowania do 5,7% w skali roku na Koncie Oszczędnościowym."
+    ],
+    "promotion_limits": "Oferta promocyjna ograniczona czasowo. Wymagany brak konta w Pekao w okresie karencji.",
+    "atm_withdrawals": "0 zł z bankomatów Pekao S.A. Przy spełnieniu warunku aktywności (wpływ 500 zł + 1 płatność) 2 darmowe wypłaty w miesiącu ze wszystkich obcych bankomatów w Polsce oraz bezpłatne wypłaty za granicą. Wypłaty BLIK bezpłatne.",
+    "blik": true,
+    "blik_details": "BLIK zbliżeniowy, przelewy na telefon BLIK (P2P), wypłaty z bankomatów kodem BLIK za 0 zł.",
+    "transfers": "0 zł za standardowe przelewy internetowe w systemie Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja mobilna PeoPay (selfie)", "e-Dowód z warstwą elektroniczną", "mObywatel"],
+    "additional_benefits": [
+      "Karta Wielowalutowa bez prowizji za przewalutowanie po kursach Mastercard/Visa",
+      "Konto Oszczędnościowe z podwyższonym oprocentowaniem (do 5,7% w skali roku)",
+      "Program rabatowy Galeria Rabatów i punkty Mastercard Bezcenne Chwile",
+      "Do 26. roku życia pełne zwolnienie ze wszystkich opłat bez jakichkolwiek warunków"
+    ],
+    "income_requirements": "Jednorazowy wpływ min. 500 zł / mies. zwalnia z opłaty za kartę (dla osób od 26 lat).",
+    "transaction_requirements": "Min. 1 płatność kartą lub PeoPay w miesiącu.",
+    "age_requirement": "Dla każdego od 18 lat (dostępne również warianty dla dzieci i młodzieży).",
+    "pros": [
+      "Bardzo wysoka premia na start (do 2700 zł)",
+      "0 zł za prowadzenie rachunku bez żadnych warunków",
+      "Doskonała karta do płatności za granicą bez spreadu",
+      "Darmowe wypłaty z obcych bankomatów przy minimalnej aktywności",
+      "Świetna aplikacja PeoPay z obsługą BLIK zbliżeniowego"
+    ],
+    "cons": [
+      "Wymóg 500 zł wpływu i 1 płatności, by karta była darmowa po 26. roku życia",
+      "Płatne wypłaty z obcych bankomatów powyżej 2 transakcji miesięcznie (oprócz BLIK)"
+    ],
+    "for_who": [
+      "Dla osób podróżujących za granicę i płacących w walutach obcych",
+      "Dla każdego szukającego wysokiej premii pieniężnej na start",
+      "Dla osób młodych (do 26 lat wszystko bezwarunkowo za 0 zł)"
+    ],
+    "not_for_who": [
+      "Dla osób, które w ogóle nie korzystają z karty i nie mają comiesięcznych wpływów na konto"
+    ],
+    "fee_table": [
+      { "item": "Otwarcie i prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
+      { "item": "Obsługa karty debetowej", "cost": "0 zł / 4 zł", "condition": "0 zł przy wpływie min. 500 zł i 1 transakcji kartą/mies. (lub <26 lat)" },
+      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "Przez bankowość internetową i PeoPay" },
+      { "item": "Wypłata z bankomatów Pekao", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłata z obcych bankomatów", "cost": "0 zł", "condition": "2 pierwsze wypłaty w miesiącu za 0 zł przy spełnieniu warunku aktywności" },
+      { "item": "Wypłata BLIK w bankomatach", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do oficjalnego formularza Banku Pekao S.A.",
+      "Zainstaluj aplikację PeoPay na swoim smartfonie lub wypełnij wniosek na stronie.",
+      "Zrób zdjęcie dowodu osobistego i wykonaj selfie w celu potwierdzenia tożsamości.",
+      "Zaakceptuj umowę kodem SMS i aktywuj kartę debetową.",
+      "Spełnij warunki aktywności, by odebrać premie gotówkowe."
+    ],
+    "faq": [
+      {
+        "q": "Czy prowadzenie Konta Przekorzystnego w Pekao jest darmowe?",
+        "a": "Tak, prowadzenie Konta Przekorzystnego jest w 100% bezwarunkowo bezpłatne. Za samo posiadanie rachunku nie zapłacisz ani grosza."
+      },
+      {
+        "q": "Jak uniknąć opłaty 4 zł za kartę?",
+        "a": "Wystarczy, że w danym miesiącu kalendarzowym zapewnisz jednorazowy wpływ na konto min. 500 zł (może to być przelew z Twojego konta w innym banku) oraz wykonasz min. 1 płatność kartą lub PeoPay. Jeśli nie ukończyłeś 26 lat, karta jest bezwarunkowo za 0 zł."
+      },
+      {
+        "q": "Kiedy wypłacana jest premia za otwarcie konta?",
+        "a": "Premia gotówkowa wypłacana jest w transzach na rachunek konta w kolejnych miesiącach po spełnieniu warunków aktywności określonych w regulaminie promocji."
+      }
+    ],
+    "affiliate_url": "https://tmlead.pl/redirect/338701._1134",
+    "source_url": "https://www.pekao.com.pl/klient-indywidualny/codzienne-bankowanie/konta-osobiste/konto-przekorzystne.html",
+    "last_verified": "2026-10-08",
+    "is_promoted": true,
+    "category_tags": ["bonus", "dla-mlodych", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#c8102e",
+    "logo_text": "Pekao",
+    "accent_color": "#c8102e"
+  },
+  {
+    "id": "mbank-ekonto",
+    "slug": "mbank-ekonto-do-uslug",
+    "bank": "mBank",
+    "account_name": "eKonto do usług",
+    "badge": "Wybór Redakcji",
+    "rating": 9.5,
+    "rating_breakdown": {
+      "costs": 2.2,
+      "atms": 1.4,
+      "mobile_app": 2.0,
+      "bonus": 1.9,
+      "convenience": 2.0
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za otwarcie i prowadzenie rachunku.",
+    "card_fee": "0 zł lub 9 zł",
+    "card_fee_condition": "0 zł pod warunkiem wykonania płatności bezgotówkowych na min. 350 zł w danym miesiącu (inaczej 9 zł). Dla osób do 24 lat: wariant eKonto możliwości z bezwarunkowo darmową kartą.",
+    "bonus": "do 1200 zł",
+    "bonus_short": "Premia gotówkowa za szybki wpływ i transakcje + atrakcyjne pakiety powitalne",
+    "bonus_conditions": [
+      "Otwórz konto przez selfie lub e-Dowód w aplikacji mBanku.",
+      "Zapewnij jednorazowy wpływ na rachunek w wymaganym terminie od otwarcia.",
+      "Wykonuj regularne płatności kartą i telefonem w kolejnych miesiącach.",
+      "Zyskaj dodatkowe premie za rejestrację konta oszczędnościowego Moje Cele."
+    ],
+    "promotion_limits": "Dla nowych klientów, którzy nie posiadali konta osobistego w mBanku w okresie wskazanym w regulaminie.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów w Polsce przy wypłacie od kwoty 300 zł. Prowizja 2,50 zł przy wypłatach poniżej 300 zł. Wypłaty BLIK również bezpłatne od 300 zł.",
+    "blik": true,
+    "blik_details": "Pełna integracja z BLIK: przelewy na telefon, prośby o przelew, BLIK zbliżeniowy, płatności w internecie.",
+    "transfers": "0 zł za standardowe przelewy internetowe.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja mobilna (weryfikacja na selfie)", "e-Dowód", "Kurier"],
+    "additional_benefits": [
+      "Moje Cele – automatyczne oszczędzanie końcówek kwot z transakcji z promocyjnym oprocentowaniem",
+      "Jedna z najwyżej ocenianych aplikacji bankowych w Europie",
+      "mOkazje – zwroty pieniędzy za zakupy u partnerów handlowych",
+      "Konto wielowalutowe z usługą wielowalutowości na jednej karcie"
+    ],
+    "income_requirements": "Brak wymogu stałych wpływów wynagrodzenia, by konto było bezpłatne.",
+    "transaction_requirements": "Suma płatności kartą min. 350 zł miesięcznie zwalnia z opłaty za kartę.",
+    "age_requirement": "Dla osób od 18 lat (wariant dla młodzieży 13-24 lata na osobnych zasadach).",
+    "pros": [
+      "0 zł za prowadzenie konta bez konieczności spełniania jakichkolwiek warunków",
+      "Intuicyjna i nowoczesna aplikacja mobilna z biometrią",
+      "Wysoka premia powitalna podzielona na proste etapy",
+      "Darmowe wypłaty ze wszystkich bankomatów w kraju od 300 zł",
+      "Program automatycznego oszczędzania Moje Cele"
+    ],
+    "cons": [
+      "Opłata 2,50 zł za wypłatę drobnych kwot (poniżej 300 zł) z bankomatów",
+      "Wymóg obrotu kartą min. 350 zł/mies., by uniknąć opłaty 9 zł"
+    ],
+    "for_who": [
+      "Dla osób ceniących nowoczesną aplikację mobilną i technologie bankowe",
+      "Dla aktywnych użytkowników płacących na co dzień kartą i telefonem",
+      "Dla osób chcących łatwo i automatycznie odkładać oszczędności"
+    ],
+    "not_for_who": [
+      "Dla osób często wypłacających z bankomatu małe kwoty gotówki (np. 50-100 zł)"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
+      { "item": "Karta debetowa do konta", "cost": "0 zł / 9 zł", "condition": "0 zł przy płatnościach min. 350 zł/mies." },
+      { "item": "Wypłaty z bankomatów w Polsce", "cost": "0 zł", "condition": "Dla wypłat od 300 zł (poniżej 300 zł: 2,50 zł)" },
+      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Dla kwot od 300 zł" },
+      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "W bankowości internetowej i mobilnej" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do wniosku promocyjnego mBanku.",
+      "Pobierz aplikację mobilną i wybierz rejestrację przez selfie lub e-Dowód.",
+      "Uzupełnij dane osobowe i potwierdź tożsamość w kilka minut.",
+      "Podpisz umowę kodem SMS i zamów kartę (lub aktywuj wirtualną od ręki).",
+      "Korzystaj z konta i zgarniaj premie gotówkowe."
+    ],
+    "faq": [
+      {
+        "q": "Czy karta wirtualna w mBanku zwalnia z opłat?",
+        "a": "Możesz dodać kartę do portfela Apple Pay lub Google Pay od razu po otwarciu konta i płacić zbliżeniowo telefonem."
+      },
+      {
+        "q": "Co jeśli wypłacę z bankomatu mniej niż 300 zł?",
+        "a": "Bank naliczy opłatę w wysokości 2,50 zł za pojedynczą transakcję. Aby tego uniknąć, wypłacaj kwoty równe lub wyższe niż 300 zł lub płać bezgotówkowo BLIKiem."
+      }
+    ],
+    "affiliate_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
+    "source_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
+    "last_verified": "2026-10-08",
+    "is_promoted": true,
+    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#d92d27",
+    "logo_text": "mBank",
+    "accent_color": "#d92d27"
+  },
+  {
+    "id": "nest-konto",
+    "slug": "nest-bank-nest-konto",
+    "bank": "Nest Bank",
+    "account_name": "Nest Konto",
+    "badge": "100% Bezwarunkowo Darmowe",
+    "rating": 9.4,
+    "rating_breakdown": {
+      "costs": 2.5,
+      "atms": 1.3,
+      "mobile_app": 1.8,
+      "bonus": 1.8,
+      "convenience": 2.0
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł bez żadnych gwiazdek i bez konieczności spełniania warunków.",
+    "card_fee": "0 zł",
+    "card_fee_condition": "Bezwarunkowo 0 zł za pierwszą kartę debetową Visa – brak wymogów obrotu.",
+    "bonus": "do 1000 zł",
+    "bonus_short": "Premie za aktywność oraz wysokie oprocentowanie oszczędności",
+    "bonus_conditions": [
+      "Otwórz Nest Konto w pełni przez internet.",
+      "Zapewnij comiesięczny wpływ z tytułu wynagrodzenia lub regularne zasilenie.",
+      "Wykonaj określoną liczbę płatności kartą lub BLIKiem.",
+      "Zyskaj premię gotówkową i dostęp do Nest Oszczędności."
+    ],
+    "promotion_limits": "Dla nowych klientów. Szczegóły w aktualnym regulaminie promocji Nest Banku.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów sieci Euronet w Polsce. 0 zł wypłaty BLIK ze wszystkich bankomatów w kraju! Wypłaty kartą z pozostałych bankomatów: 6 zł.",
+    "blik": true,
+    "blik_details": "BLIK, przelewy na telefon, płatności w internecie i wypłaty ze wszystkich bankomatów za 0 zł.",
+    "transfers": "0 zł za standardowe przelewy internetowe Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Weryfikacja na selfie w aplikacji", "Przelew weryfikacyjny", "Kurier"],
+    "additional_benefits": [
+      "Prawdziwe 0 zł bez ukrytych haczyków – nie musisz pamiętać o comiesięcznych transakcjach",
+      "Świetna oferta depozytowa (Nest Oszczędności i Lokata Witaj)",
+      "Bardzo przejrzysta i czytelna tabela opłat",
+      "Konto walutowe za 0 zł z korzystnymi kursami wymiany walut"
+    ],
+    "income_requirements": "Brak – konto i karta są bezpłatne nawet przy zerowych wpływach.",
+    "transaction_requirements": "Brak wymogu transakcji kartą.",
+    "age_requirement": "Dla osób pełnoletnich.",
+    "pros": [
+      "Jedno z nielicznych kont na rynku bezwarunkowo darmowych (zarówno konto, jak i karta)",
+      "Zero stresu o opłaty – idealne jako konto główne lub zapasowe",
+      "Darmowe wypłaty BLIK ze wszystkich bankomatów w Polsce",
+      "Darmowe wypłaty kartą z bankomatów Euronet",
+      "Bardzo dobre oprocentowanie produktów oszczędnościowych"
+    ],
+    "cons": [
+      "Płatne wypłaty kartą z bankomatów innych niż Euronet (6 zł) – choć BLIKiem za darmo",
+      "Mniejsza sieć placówek stacjonarnych w mniejszych miejscowościach"
+    ],
+    "for_who": [
+      "Dla każdego, kto nie chce pamiętać o wymogach comiesięcznych płatności",
+      "Dla osób szukających bezpłatnego rachunku drugiego wyboru lub konta oszczędnościowego",
+      "Dla oszczędzających szukających wysokiego oprocentowania"
+    ],
+    "not_for_who": [
+      "Dla osób potrzebujących częstych wpłat gotówki w stacjonarnych oddziałach bankowych"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo bez opłat" },
+      { "item": "Karta debetowa Visa", "cost": "0 zł", "condition": "Bezwarunkowo bez opłat" },
+      { "item": "Wypłaty z bankomatów Euronet", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty BLIK ze wszystkich bankomatów", "cost": "0 zł", "condition": "W całej Polsce" },
+      { "item": "Wypłaty z pozostałych bankomatów kartą", "cost": "6 zł", "condition": "Kartą (BLIKiem 0 zł)" },
+      { "item": "Krajowe przelewy internetowe", "cost": "0 zł", "condition": "Przez aplikację i serwis www" }
+    ],
+    "how_to_open_steps": [
+      "Przejdź na stronę Nest Banku klikając 'SPRAWDŹ OFERTĘ'.",
+      "Wypełnij intuicyjny wniosek online w przeglądarce lub aplikacji mobilnej.",
+      "Zweryfikuj tożsamość poprzez selfie z dowodem osobistym.",
+      "Konto staje się aktywne natychmiast po pozytywnej weryfikacji.",
+      "Korzystaj z całkowicie darmowego rachunku bankowego."
+    ],
+    "faq": [
+      {
+        "q": "Czy Nest Konto jest naprawdę bezpłatne?",
+        "a": "Tak! Nest Bank konsekwentnie nie pobiera opłat ani za prowadzenie rachunku, ani za posiadanie pierwszej karty debetowej, niezależnie od tego, czy z konta korzystasz codziennie, czy sporadycznie."
+      },
+      {
+        "q": "Jak wypłacać gotówkę bez prowizji?",
+        "a": "Najprostszą metodą jest użycie kodu BLIK – wówczas wypłaty są darmowe ze wszystkich bankomatów w Polsce. Przy użyciu karty plastikowej darmowe są wszystkie bankomaty Euronet."
+      }
+    ],
+    "affiliate_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
+    "source_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
+    "last_verified": "2026-10-08",
+    "is_promoted": true,
+    "category_tags": ["darmowe", "bez-oplat", "osobiste", "najlepsze"],
+    "logo_bg": "#002d72",
+    "logo_text": "Nest",
+    "accent_color": "#002d72"
+  },
+  {
+    "id": "santander-konto",
+    "slug": "santander-konto",
+    "bank": "Santander Bank Polska",
+    "account_name": "Konto Santander",
+    "badge": "Najlepszy Pakiet",
+    "rating": 9.3,
+    "rating_breakdown": {
+      "costs": 2.1,
+      "atms": 1.4,
+      "mobile_app": 1.9,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł lub 6 zł",
+    "monthly_fee_condition": "0 zł pod warunkiem łącznego spełnienia: wpływ min. 1000 zł i min. 1 płatność kartą lub BLIK w miesiącu (inaczej 6 zł). Osoby do 26 lat: bezwarunkowo 0 zł.",
+    "card_fee": "0 zł lub 9 zł",
+    "card_fee_condition": "0 zł w ramach tego samego warunku aktywności (wpływ min. 1000 zł + min. 1 transakcja). Dla osób do 26 lat: 0 zł przy 1 transakcji.",
+    "bonus": "do 800 zł",
+    "bonus_short": "Premia gotówkowa za otwarcie konta i regularną aktywność + punkty Bezcenne Chwile",
+    "bonus_conditions": [
+      "Wypełnij wniosek online o Konto Santander z kartą debetową.",
+      "Zapewnij wpływ min. 1000 zł w wyznaczonych miesiącach.",
+      "Wykonaj co najmniej 1 płatność bezgotówkową kartą lub BLIK w każdym miesiącu.",
+      "Zaloguj się min. raz do aplikacji mobilnej Santander mobile."
+    ],
+    "promotion_limits": "Oferta dla osób, które nie posiadały konta w Santander Bank Polska w okresie karencji.",
+    "atm_withdrawals": "0 zł z bankomatów Santander. 0 zł za wypłaty kodem BLIK ze wszystkich bankomatów w Polsce! Wypłaty kartą z obcych bankomatów: 3-5 zł.",
+    "blik": true,
+    "blik_details": "BLIK zbliżeniowy, przelewy na numer telefonu, wypłaty ze wszystkich bankomatów za 0 zł.",
+    "transfers": "0 zł za przelewy natychmiastowe Express Elixir (unikalna korzyść Santander!) oraz przelewy standardowe.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja mobilna (selfie)", "e-Dowód", "Przelew weryfikacyjny"],
+    "additional_benefits": [
+      "Darmowe przelewy natychmiastowe Express Elixir bez limitu w bankowości internetowej i mobilnej",
+      "CyberRescue – bezpłatna ochrona i wsparcie specjalistów ds. cyberbezpieczeństwa",
+      "Konto24 i kantor walutowy online z natychmiastową wymianą walut",
+      "Zwroty za rachunki domowe (do 300 zł rocznie za prąd, gaz, internet)"
+    ],
+    "income_requirements": "Wpływ min. 1000 zł miesięcznie (może być przelew z innego banku).",
+    "transaction_requirements": "Min. 1 płatność kartą lub BLIK w miesiącu.",
+    "age_requirement": "Dla osób od 18 lat (lub wariant dla młodych od 13 lat).",
+    "pros": [
+      "Nielimitowane darmowe przelewy natychmiastowe Express Elixir",
+      "Wysoka premia gotówkowa na start z prostymi warunkami",
+      "Darmowe wypłaty BLIK ze wszystkich bankomatów w Polsce",
+      "Zwrot do 300 zł rocznie za opłacanie rachunków domowych",
+      "Nowoczesna i intuicyjna aplikacja Santander mobile"
+    ],
+    "cons": [
+      "Wymóg jednoczesnego wpływu 1000 zł i transakcji kartą dla osób powyżej 26 lat",
+      "Wypłata kartą z obcych bankomatów jest płatna (BLIK jest za darmo)"
+    ],
+    "for_who": [
+      "Dla osób często wysyłających przelewy natychmiastowe (0 zł za Express Elixir)",
+      "Dla tych, którzy opłacają comiesięczne rachunki za media i chcą otrzymać cashback",
+      "Dla użytkowników szukających solidnego banku uniwersalnego"
+    ],
+    "not_for_who": [
+      "Dla osób, które nie mogą zapewnić wpływu 1000 zł i nie korzystają z karty"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł / 6 zł", "condition": "0 zł przy wpływie min. 1000 zł i 1 transakcji kartą/BLIK" },
+      { "item": "Karta Dopasowana", "cost": "0 zł / 9 zł", "condition": "0 zł w pakiecie z warunkiem powyżej" },
+      { "item": "Przelewy natychmiastowe Express Elixir", "cost": "0 zł", "condition": "Bez limitu za darmo!" },
+      { "item": "Wypłaty z bankomatów Santander", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" },
+      { "item": "Wypłaty kartą z obcych bankomatów", "cost": "5 zł", "condition": "Kartą (BLIKiem 0 zł)" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź na stronę Santander Bank Polska.",
+      "Złóż wniosek przez selfie w aplikacji lub formularz www.",
+      "Potwierdź tożsamość e-Dowodem lub zdjęciem dokumentu.",
+      "Zaloguj się do aplikacji Santander mobile.",
+      "Ciesz się natychmiastowymi przelewami za 0 zł i zgarniaj bonusy."
+    ],
+    "faq": [
+      {
+        "q": "Czy przelewy natychmiastowe w Santanderze są naprawdę darmowe?",
+        "a": "Tak! Santander Bank Polska jako jeden z nielicznych banków w Polsce oferuje standardowe przelewy natychmiastowe Express Elixir za 0 zł bez limitu dla posiadaczy Konta Santander."
+      },
+      {
+        "q": "Jak zyskać zwrot za rachunki domowe?",
+        "a": "Wystarczy zgłosić w bankowości faktury za gaz, prąd, telefon czy internet i opłacać je z Konta Santander – bank zwraca 1% wartości opłat (do 25 zł miesięcznie, czyli do 300 zł rocznie)."
+      }
+    ],
+    "affiliate_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
+    "source_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
+    "last_verified": "2026-10-08",
+    "is_promoted": true,
+    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#ec0000",
+    "logo_text": "Santander",
+    "accent_color": "#ec0000"
+  },
+  {
+    "id": "millennium-360",
+    "slug": "millennium-360",
+    "bank": "Bank Millennium",
+    "account_name": "Millennium 360°",
+    "badge": "Najlepsze na co dzień",
+    "rating": 9.4,
+    "rating_breakdown": {
+      "costs": 2.2,
+      "atms": 1.5,
+      "mobile_app": 1.9,
+      "bonus": 1.9,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za otwarcie i prowadzenie konta.",
+    "card_fee": "0 zł lub 11 zł",
+    "card_fee_condition": "0 zł przy wykonaniu min. 5 płatności kartą lub BLIKiem w miesiącu (dla osób w wieku 18-26 lat: wystarczy tylko 1 płatność). Inaczej 11 zł.",
+    "bonus": "do 750 zł",
+    "bonus_short": "Premia gotówkowa na start + vouchery zakupowe i promocyjne konto oszczędnościowe",
+    "bonus_conditions": [
+      "Załóż konto Millennium 360° online z kartą debetową.",
+      "Zapewnij wpływ i wykonaj min. 5 płatności kartą/BLIKiem w każdym miesiącu promocji.",
+      "Aktywuj aplikację mobilną i wyraź zgody marketingowe.",
+      "Odbierz premie przelewem na konto."
+    ],
+    "promotion_limits": "Dla nowych klientów Banku Millennium.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów w Polsce i na świecie przy spełnieniu warunku 5 płatności kartą/BLIKiem w miesiącu (lub 1 płatności dla osób do 26 lat)! Wypłaty BLIK ze wszystkich bankomatów za 0 zł.",
+    "blik": true,
+    "blik_details": "BLIK zbliżeniowy, przelewy na telefon, transakcje online i wypłaty z bankomatów.",
+    "transfers": "0 zł za przelewy standardowe Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Selfie w aplikacji mobilnej", "Logowanie przez inny bank (otwarta bankowość)", "Kurier"],
+    "additional_benefits": [
+      "Darmowe bankomaty na całym świecie przy zaledwie 5 płatnościach miesięcznie",
+      "Pakiet walutowy do 1000 zł miesięcznie bez prowizji za przewalutowanie",
+      "Konto Oszczędnościowe Profit z bardzo konkurencyjnym oprocentowaniem na nowe środki",
+      "Bilety komunikacji miejskiej i parkingi bezpośrednio w aplikacji mobilnej"
+    ],
+    "income_requirements": "Brak wymogu minimalnego wpływu, by uniknąć opłaty.",
+    "transaction_requirements": "Min. 5 transakcji kartą lub BLIKiem (lub 1 dla osób 18-26 lat).",
+    "age_requirement": "Od 18 lat (specjalne udogodnienia dla osób 18-26 lat).",
+    "pros": [
+      "Darmowe wypłaty ze WSZYSTKICH bankomatów na świecie przy 5 płatnościach miesięcznie",
+      "Prowadzenie konta zawsze za 0 zł bezwarunkowo",
+      "Bardzo atrakcyjne oprocentowanie na Koncie Oszczędnościowym Profit",
+      "Nowoczesna i wielokrotnie nagradzana aplikacja mobilna",
+      "Dla osób do 26 lat wystarczy tylko 1 płatność w miesiącu"
+    ],
+    "cons": [
+      "Stosunkowo wysoka opłata za kartę (11 zł) w przypadku niespełnienia warunku 5 płatności",
+      "Opłata za sprawdzanie salda w obcych bankomatach"
+    ],
+    "for_who": [
+      "Dla osób często wypłacających gotówkę z różnych bankomatów w Polsce i za granicą",
+      "Dla osób w wieku 18-26 lat (warunek zwolnienia to tylko 1 transakcja)",
+      "Dla oszczędzających na Koncie Oszczędnościowym Profit"
+    ],
+    "not_for_who": [
+      "Dla osób, które sporadycznie płacą kartą i mogą zapomnieć o wykonaniu 5 transakcji"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
+      { "item": "Obsługa karty debetowej", "cost": "0 zł / 11 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (1 płatność dla wieku 18-26)" },
+      { "item": "Wypłaty ze wszystkich bankomatów w Polsce", "cost": "0 zł", "condition": "Przy spełnieniu warunku 5 płatności (lub 1 dla <26)" },
+      { "item": "Wypłaty z bankomatów za granicą", "cost": "0 zł", "condition": "Przy spełnieniu warunku płatności" },
+      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "W bankowości internetowej i aplikacji" }
+    ],
+    "how_to_open_steps": [
+      "Przejdź na stronę Banku Millennium klikając 'SPRAWDŹ OFERTĘ'.",
+      "Wybierz otwarcie konta przez selfie lub logowanie do innego banku.",
+      "Zatwierdź wniosek i zapoznaj się z regulaminem promocji powitalnej.",
+      "Zainstaluj aplikację Millennium na smartfonie.",
+      "Płać kartą lub BLIKiem min. 5 razy w miesiącu i ciesz się bezpłatnym kontem."
+    ],
+    "faq": [
+      {
+        "q": "Jak działa warunek darmowych bankomatów na całym świecie?",
+        "a": "Wystarczy, że w poprzednim miesiącu wykonasz min. 5 płatności kartą lub BLIKiem (a jeśli masz mniej niż 26 lat – tylko 1 płatność). W kolejnym miesiącu zyskujesz bezpłatne wypłaty ze wszystkich bankomatów w Polsce i na świecie."
+      },
+      {
+        "q": "Czy transakcje BLIK wliczają się do zwolnienia z opłaty za kartę?",
+        "a": "Tak! Zarówno płatności kartą debetową, jak i transakcje zbliżeniowe lub internetowe BLIK zaliczają się do limitu 5 wymaganych płatności."
+      }
+    ],
+    "affiliate_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
+    "source_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
+    "last_verified": "2026-10-08",
+    "is_promoted": true,
+    "category_tags": ["dla-mlodych", "bonus", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#a50050",
+    "logo_text": "Millennium",
+    "accent_color": "#a50050"
+  },
+  {
+    "id": "ing-direct",
+    "slug": "ing-konto-direct",
+    "bank": "ING Bank Śląski",
+    "account_name": "Konto z Lwem Direct",
+    "badge": "Lider Jakości",
+    "rating": 9.3,
+    "rating_breakdown": {
+      "costs": 2.1,
+      "atms": 1.4,
+      "mobile_app": 2.0,
+      "bonus": 1.8,
+      "convenience": 2.0
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za otwarcie i prowadzenie konta.",
+    "card_fee": "0 zł lub 10 zł",
+    "card_fee_condition": "0 zł przy płatnościach kartą na łączną kwotę min. 300 zł w okresie rozliczeniowym (dla osób w wieku 18-26 lat: bezwarunkowo 0 zł). Inaczej 10 zł.",
+    "bonus": "do 800 zł",
+    "bonus_short": "Premia gotówkowa w promocji 'Do 800 zł za otwarcie konta Direct'",
+    "bonus_conditions": [
+      "Otwórz konto przez aplikację Moje ING z kartą debetową.",
+      "Zapewnij comiesięczny wpływ na konto w określonej wysokości.",
+      "Wykonuj płatności bezgotówkowe kartą lub BLIKiem.",
+      "Zarejestruj cele oszczędnościowe na Otwartym Koncie Oszczędnościowym (OKO)."
+    ],
+    "promotion_limits": "Dla nowych klientów nieposiadających konta w ING w okresie wskazanym w regulaminie.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów ING oraz sieci Planet Cash w Polsce. Pierwsza wypłata w miesiącu z obcych bankomatów za 0 zł (kolejne 5 zł lub 10 zł). Wypłaty BLIK: 0 zł w ING i Planet Cash, pierwsza wypłata z pozostałych za 0 zł.",
+    "blik": true,
+    "blik_details": "Pełny BLIK: przelewy na telefon, prośby o rozliczenie, płatności w internecie i sklepach stacjonarnych.",
+    "transfers": "0 zł za przelewy standardowe Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja Moje ING (weryfikacja na selfie)", "Kurier"],
+    "additional_benefits": [
+      "Otwarte Konto Oszczędnościowe (OKO) z podwyższonym promocyjnym oprocentowaniem",
+      "Aplikacja Moje ING – jedna z najlepiej ocenianych i najbardziej stabilnych aplikacji w Polsce",
+      "Karta wielowalutowa bez opłat za przewalutowanie przy podpięciu kont walutowych",
+      "Moduł planowania budżetu i analizy wydatków automatycznie kategoryzujący zakupy"
+    ],
+    "income_requirements": "Brak wymogu wpływów do darmowego prowadzenia konta.",
+    "transaction_requirements": "Płatności kartą na min. 300 zł miesięcznie zwalniają z opłaty za kartę.",
+    "age_requirement": "Dla osób pełnoletnich (wariant Mobi dla osób 18-26 lat bezwarunkowo darmowy).",
+    "pros": [
+      "Aplikacja Moje ING z genialnym modułem analizy domowego budżetu",
+      "Darmowe bankomaty ING i Planet Cash w całym kraju",
+      "Wysoka stabilność systemów bankowych i bezpieczeństwo",
+      "Osoby w wieku 18-26 lat mają kartę bezwarunkowo bez opłat",
+      "Jedno z najlepszych kont oszczędnościowych (OKO) na rynku"
+    ],
+    "cons": [
+      "Wymóg obrotu min. 300 zł kartą dla osób powyżej 26. roku życia",
+      "Tylko jedna darmowa wypłata w miesiącu z obcych bankomatów"
+    ],
+    "for_who": [
+      "Dla osób poszukujących maksymalnego bezpieczeństwa i stabilności bankowej",
+      "Dla planujących budżet domowy i kontrolujących wydatki",
+      "Dla osób młodych (18-26 lat bez żadnych warunków)"
+    ],
+    "not_for_who": [
+      "Dla osób sporadycznie korzystających z karty debetowej i często wypłacających z Euronetu"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
+      { "item": "Karta Visa zbliżeniowa", "cost": "0 zł / 10 zł", "condition": "0 zł przy sumie płatności min. 300 zł/mies. (lub wiek 18-26)" },
+      { "item": "Wypłaty z bankomatów ING i Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty z innych bankomatów kartą", "cost": "0 zł / 5-10 zł", "condition": "Pierwsza wypłata w miesiącu 0 zł, kolejne płatne" },
+      { "item": "Przelewy Elixir przez internet", "cost": "0 zł", "condition": "Bez limitu w aplikacji i bankowości" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do strony ING Banku Śląskiego.",
+      "Wybierz opcję założenia konta przez aplikację Moje ING.",
+      "Zrób zdjęcie dowodu osobistego i nagraj krótkie wideo/selfie.",
+      "Zaloguj się do konta i zamów kartę z własną grafiką lub wersję wirtualną.",
+      "Spełniaj warunki promocji i odbieraj premie gotówkowe."
+    ],
+    "faq": [
+      {
+        "q": "Czy w ING mogę założyć konto bez wychodzenia z domu?",
+        "a": "Tak, cały proces weryfikacji tożsamości odbywa się w aplikacji mobilnej Moje ING na smartfonie. Konto jest gotowe do użycia nawet w kilkanaście minut."
+      },
+      {
+        "q": "Jakie bankomaty są darmowe w ING?",
+        "a": "Wszystkie bankomaty własne ING Banku Śląskiego oraz urządzenia sieci Planet Cash są całkowicie bezpłatne bez limitu transakcji."
+      }
+    ],
+    "affiliate_url": "https://www.ing.pl/indywidualni/konta-osobiste/konto-direct",
+    "source_url": "https://www.ing.pl/indywidualni/konta-osobiste/konto-direct",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#ff6200",
+    "logo_text": "ING",
+    "accent_color": "#ff6200"
+  },
+  {
+    "id": "alior-jakze-osobiste",
+    "slug": "alior-konto-jakze-osobiste",
+    "bank": "Alior Bank",
+    "account_name": "Konto Jakże Osobiste",
+    "badge": "Elastyczne Korzyści",
+    "rating": 9.2,
+    "rating_breakdown": {
+      "costs": 2.1,
+      "atms": 1.4,
+      "mobile_app": 1.8,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł lub 10 zł",
+    "monthly_fee_condition": "0 zł przy jednorazowym wpływie min. 1500 zł w miesiącu (inaczej 10 zł). Osoby poniżej 26 lat: bezwarunkowo 0 zł.",
+    "card_fee": "0 zł lub 5 zł",
+    "card_fee_condition": "0 zł przy wykonaniu płatności bezgotówkowych na łączną kwotę min. 300 zł w miesiącu (inaczej 5 zł).",
+    "bonus": "do 900 zł",
+    "bonus_short": "Premia pieniężna na start + 1% zwrotu za płatności mobilne (do 240 zł rocznie)",
+    "bonus_conditions": [
+      "Złóż wniosek online o Konto Jakże Osobiste.",
+      "Zapewnij wpływ na konto min. 1500 zł miesięcznie.",
+      "Płać kartą lub BLIKiem min. 300 zł miesięcznie.",
+      "Zaloguj się do aplikacji Alior Mobile i aktywuj korzyści."
+    ],
+    "promotion_limits": "Dla nowych klientów, którzy nie posiadali ROR w Alior Banku w okresie karencji.",
+    "atm_withdrawals": "0 zł z bankomatów własnych Alior Banku. Wypłaty BLIK za 0 zł ze wszystkich bankomatów w kraju! Możliwość wyboru korzyści: darmowe wypłaty ze wszystkich bankomatów w Polsce.",
+    "blik": true,
+    "blik_details": "BLIK, przelewy na telefon, płatności kodem i zbliżeniowe.",
+    "transfers": "0 zł za standardowe przelewy internetowe.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Selfie w aplikacji Alior Mobile", "Video-weryfikacja", "Kurier"],
+    "additional_benefits": [
+      "2 bezpłatne korzyści do wyboru (np. 1% moneyback za płatności telefonem, darmowe bankomaty, pakiet bezpłatnych przelewów natychmiastowych, ubezpieczenie w podróży)",
+      "Konto Oszczędnościowe z podwyższonym oprocentowaniem w ramach wybranej korzyści",
+      "Karta wielowalutowa i kantor walutowy Alior Banku",
+      "Brak opłat za prowadzenie konta dla osób do 26. roku życia"
+    ],
+    "income_requirements": "Jednorazowy wpływ min. 1500 zł miesięcznie zwalnia z opłaty za prowadzenie.",
+    "transaction_requirements": "Min. 300 zł płatności kartą miesięcznie zwalnia z opłaty za kartę.",
+    "age_requirement": "Dla osób pełnoletnich.",
+    "pros": [
+      "Możliwość dopasowania konta do własnych potrzeb dzięki wymiennym korzyściom",
+      "Zwrot 1% (do 20 zł miesięcznie) za płatności telefonem (Google/Apple Pay)",
+      "Wysoka premia gotówkowa na start",
+      "Darmowe wypłaty BLIK ze wszystkich bankomatów w kraju",
+      "Dla osób do 26 lat prowadzenie konta jest bezwarunkowo darmowe"
+    ],
+    "cons": [
+      "Wymóg wpływu min. 1500 zł miesięcznie dla osób od 26 lat",
+      "Każda trzecia i kolejna wybrana korzyść kosztuje 3,50 zł/mies."
+    ],
+    "for_who": [
+      "Dla osób lubiących personalizować usługi bankowe pod swój styl życia",
+      "Dla osób płacących telefonem i polujących na comiesięczny moneyback",
+      "Dla podróżujących (korzyść: darmowe bankomaty i brak prowizji za przewalutowanie)"
+    ],
+    "not_for_who": [
+      "Dla osób bez stałego comiesięcznego wpływu min. 1500 zł"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy wpływie min. 1500 zł/mies. (lub wiek <26)" },
+      { "item": "Karta do konta", "cost": "0 zł / 5 zł", "condition": "0 zł przy płatnościach min. 300 zł/mies." },
+      { "item": "Wypłaty z bankomatów Alior", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" },
+      { "item": "Wypłaty z innych bankomatów kartą", "cost": "2,50 zł lub 0 zł", "condition": "0 zł z aktywną korzyścią 'Bezpłatne bankomaty w Polsce'" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza Alior Banku.",
+      "Złóż wniosek przez selfie w aplikacji Alior Mobile.",
+      "Wybierz dwie darmowe korzyści (np. zwrot za płatności telefonem i darmowe bankomaty).",
+      "Zapewnij wpływ 1500 zł i płać kartą min. 300 zł miesięcznie.",
+      "Odbieraj comiesięczne premie pieniężne i moneyback."
+    ],
+    "faq": [
+      {
+        "q": "Czym są korzyści w Koncie Jakże Osobistym?",
+        "a": "To unikalna funkcja Alior Banku – możesz bezpłatnie włączyć dwie dowolne korzyści z listy (np. darmowe wypłaty z bankomatów w Polsce, zwrot 1% za zakupy telefonem, pakiet 5 darmowych przelewów natychmiastowych). Korzyści można zmieniać w aplikacji w dowolnym momencie."
+      },
+      {
+        "q": "Czy wpływ 1500 zł musi być z pensji?",
+        "a": "Nie, może to być jednorazowy przelew z Twojego konta w innym banku."
+      }
+    ],
+    "affiliate_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
+    "source_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "logo_bg": "#7a0026",
+    "logo_text": "Alior",
+    "accent_color": "#7a0026"
+  },
+  {
+    "id": "velobank-velokonto",
+    "slug": "velobank-velokonto",
+    "bank": "VeloBank",
+    "account_name": "VeloKonto",
+    "badge": "Najwyższy Cashback",
+    "rating": 9.3,
+    "rating_breakdown": {
+      "costs": 2.2,
+      "atms": 1.4,
+      "mobile_app": 1.8,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za prowadzenie konta dla każdego.",
+    "card_fee": "0 zł lub 7 zł",
+    "card_fee_condition": "0 zł przy wykonaniu min. 5 płatności kartą lub BLIKiem w miesiącu (dla osób do 26 lat: bezwarunkowo 0 zł). Inaczej 7 zł.",
+    "bonus": "do 650 zł",
+    "bonus_short": "Do 650 zł zwrotu (cashback 10% od zakupów) + wysokie oprocentowanie oszczędności",
+    "bonus_conditions": [
+      "Załóż VeloKonto przez internet z kartą i bankowością elektroniczną.",
+      "Płać kartą lub BLIKiem i odbieraj 10% zwrotu od wartości zakupów (do 100 zł miesięcznie).",
+      "Skorzystaj z Elastycznego Konta Oszczędnościowego z czołowym oprocentowaniem na rynku.",
+      "Zapewnij wpływ min. 2000 zł miesięcznie w okresie promocji."
+    ],
+    "promotion_limits": "Dla nowych klientów VeloBanku.",
+    "atm_withdrawals": "0 zł z bankomatów Planet Cash w Polsce. 0 zł z pozostałych bankomatów w Polsce pod warunkiem wykonania 5 płatności kartą/BLIK w miesiącu. Wypłaty BLIK za 0 zł.",
+    "blik": true,
+    "blik_details": "BLIK, przelewy na telefon, płatności w internecie i darmowe wypłaty z bankomatów.",
+    "transfers": "0 zł za standardowe przelewy internetowe.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja mobilna (selfie)", "mObywatel", "Kurier"],
+    "additional_benefits": [
+      "Aż 10% realnego zwrotu za zakupy (cashback na konto)",
+      "Elastyczne Konto Oszczędnościowe (EKO) z jednym z najwyższych oprocentowań w Polsce",
+      "Nowoczesna bankowość internetowa i mobilna",
+      "Darmowe wypłaty ze wszystkich bankomatów przy 5 płatnościach w miesiącu"
+    ],
+    "income_requirements": "Brak wymogu wpływu do darmowego konta (wpływ 2000 zł wymagany do pełnego cashbacku).",
+    "transaction_requirements": "Min. 5 płatności kartą lub BLIKiem w miesiącu zwalnia z opłaty za kartę.",
+    "age_requirement": "Dla osób od 18 lat (lub wariant dla młodych od 13 lat).",
+    "pros": [
+      "Prosty i wysoki zwrot 10% za codzienne zakupy (nawet 650 zł)",
+      "Prowadzenie konta bezwarunkowo za 0 zł",
+      "Darmowe wypłaty ze wszystkich bankomatów w Polsce przy 5 płatnościach miesięcznie",
+      "Świetna oferta oszczędnościowa dla nowych środków",
+      "Osoby do 26 lat mają kartę bezwarunkowo za 0 zł"
+    ],
+    "cons": [
+      "Wymóg 5 płatności miesięcznie, by karta i obce bankomaty były darmowe",
+      "Mniejsza rozpoznawalność marki w porównaniu do najstarszych banków"
+    ],
+    "for_who": [
+      "Dla osób chcących zarabiać na codziennych zakupach dzięki 10% cashbackowi",
+      "Dla poszukujących świetnego oprocentowania na koncie oszczędnościowym",
+      "Dla osób płacących regularnie kartą w sklepach"
+    ],
+    "not_for_who": [
+      "Dla osób niepłacących kartą ani telefonem"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
+      { "item": "Karta debetowa", "cost": "0 zł / 7 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (lub wiek <26)" },
+      { "item": "Wypłaty z bankomatów Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty z innych bankomatów w Polsce", "cost": "0 zł / 5 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w miesiącu" },
+      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do wniosku VeloBanku.",
+      "Złóż wniosek przez selfie w aplikacji lub z wykorzystaniem aplikacji mObywatel.",
+      "Aktywuj konto i zacznij płacić kartą lub BLIKiem.",
+      "Zapewnij wpływ i odbieraj 10% zwrotu od każdej transakcji zakupowej."
+    ],
+    "faq": [
+      {
+        "q": "Jak działa 10% zwrotu za zakupy w VeloBanku?",
+        "a": "Za każdą transakcję bezgotówkową kartą lub BLIKiem bank zwraca 10% jej wartości na Twoje konto (maksymalnie 100 zł miesięcznie przez pierwsze miesiące, łącznie do 650 zł premii)."
+      }
+    ],
+    "affiliate_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
+    "source_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "logo_bg": "#009639",
+    "logo_text": "VeloBank",
+    "accent_color": "#009639"
+  },
+  {
+    "id": "bnp-paribas-otwarte",
+    "slug": "bnp-paribas-otwarte-na-ciebie",
+    "bank": "BNP Paribas",
+    "account_name": "Konto Otwarte na Ciebie",
+    "badge": "Bogaty Pakiet Promocji",
+    "rating": 9.2,
+    "rating_breakdown": {
+      "costs": 2.2,
+      "atms": 1.3,
+      "mobile_app": 1.8,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "Bezwarunkowo 0 zł za prowadzenie konta.",
+    "card_fee": "0 zł lub 7 zł",
+    "card_fee_condition": "0 zł przy min. 3 płatnościach kartą w miesiącu (dla osób poniżej 26 lat: bezwarunkowo 0 zł). Inaczej 7 zł dla Karty Otwartej na Dzisiaj.",
+    "bonus": "do 1050 zł",
+    "bonus_short": "Premie gotówkowe i bony zakupowe (np. Allegro, Biedronka) w dedykowanych akcjach",
+    "bonus_conditions": [
+      "Zarejestruj się na dedykowanej stronie promocji i złóż wniosek online.",
+      "Zainstaluj aplikację GOmobile i aktywuj kartę.",
+      "Wykonuj transakcje kartą i BLIKiem oraz zapewnij wymagane wpływy w kolejnych miesiącach.",
+      "Odbieraj nagrody podzielone na transze (przelewy gotówkowe lub karty podarunkowe)."
+    ],
+    "promotion_limits": "Dla nowych klientów. Dedykowane promocje agencyjne z ograniczoną pulą wniosków.",
+    "atm_withdrawals": "0 zł z bankomatów BNP Paribas oraz sieci Planet Cash. Pozostałe bankomaty kartą: 5-7 zł. Wypłaty BLIK ze wszystkich bankomatów za 0 zł.",
+    "blik": true,
+    "blik_details": "BLIK, przelewy na telefon, transakcje zbliżeniowe i internetowe.",
+    "transfers": "0 zł za standardowe przelewy internetowe Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja GOmobile (selfie)", "Kurier"],
+    "additional_benefits": [
+      "Jedne z najwyższych premii finansowych na polskim rynku bankowym",
+      "Karta Otwarta na Świat – płatności w niemal 160 walutach po kursach Mastercard bez kosztów przewalutowania",
+      "Aplikacja GOmobile z opcją zakupu biletów i opłat parkingowych",
+      "Do wyboru 3 różne karty debetowe dopasowane do stylu życia"
+    ],
+    "income_requirements": "Brak wymogu stałego dochodu (wpływy wymagane jedynie na potrzeby regulaminu promocji).",
+    "transaction_requirements": "Min. 3 płatności kartą w miesiącu zwalniają z opłaty za kartę.",
+    "age_requirement": "Dla osób pełnoletnich.",
+    "pros": [
+      "Bardzo wysokie i regularne premie w akcjach promocyjnych (często >1000 zł)",
+      "Bezwarunkowo 0 zł za prowadzenie konta",
+      "Darmowe bankomaty BNP Paribas i Planet Cash w całym kraju",
+      "Wypłaty BLIK za 0 zł",
+      "Świetna opcjonalna karta podróżna Karta Otwarta na Świat"
+    ],
+    "cons": [
+      "Płatne wypłaty z obcych bankomatów przy użyciu karty fizycznej",
+      "Promocje często wymagają rejestracji na dedykowanych stronach organizatorów"
+    ],
+    "for_who": [
+      "Dla łowców bankowych promocji szukających maksymalnego zysku na start",
+      "Dla osób podróżujących (przy wyborze Karty Otwartej na Świat)",
+      "Dla młodych (karta bezpłatna do 26. roku życia)"
+    ],
+    "not_for_who": [
+      "Dla osób niechętnych spełnianiu kilkuetapowych warunków premiowych"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
+      { "item": "Karta Otwarta na Dzisiaj", "cost": "0 zł / 7 zł", "condition": "0 zł przy min. 3 płatnościach kartą/mies. (lub wiek <26)" },
+      { "item": "Wypłaty z bankomatów BNP Paribas i Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
+      { "item": "Wypłaty z innych bankomatów kartą", "cost": "7 zł", "condition": "Kartą (BLIKiem 0 zł)" },
+      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza promocji BNP Paribas.",
+      "Zarejestruj się w promocji i wypełnij wniosek o konto.",
+      "Pobierz aplikację GOmobile i potwierdź tożsamość poprzez selfie.",
+      "Aktywuj kartę i wykonaj min. 3 płatności w miesiącu.",
+      "Ciesz się premiami i voucherami zakupowymi."
+    ],
+    "faq": [
+      {
+        "q": "W jakiej formie wypłacana jest premia w BNP Paribas?",
+        "a": "W zależności od aktualnej edycji promocji nagrody to bezpośrednie przelewy gotówkowe na konto lub karty podarunkowe (np. Allegro, Biedronka) przesyłane w formie kodów elektronicznych."
+      }
+    ],
+    "affiliate_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
+    "source_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "logo_bg": "#00915a",
+    "logo_text": "BNP Paribas",
+    "accent_color": "#00915a"
+  },
+  {
+    "id": "pko-konto-za-zero",
+    "slug": "pko-konto-za-zero",
+    "bank": "PKO Bank Polski",
+    "account_name": "PKO Konto za Zero",
+    "badge": "Najpopularniejszy Bank",
+    "rating": 9.1,
+    "rating_breakdown": {
+      "costs": 2.1,
+      "atms": 1.4,
+      "mobile_app": 2.0,
+      "bonus": 1.7,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł",
+    "monthly_fee_condition": "0 zł za prowadzenie konta, jeśli posiadasz kartę debetową.",
+    "card_fee": "0 zł lub 10 zł",
+    "card_fee_condition": "0 zł przy wykonaniu min. 5 płatności bezgotówkowych kartą lub BLIKiem w okresie rozliczeniowym (inaczej 10 zł). Dla osób do 26 lat: PKO Konto dla Młodych z bezwarunkowo darmową kartą.",
+    "bonus": "do 600 zł",
+    "bonus_short": "Premie w programie poleceń i akcjach promocyjnych + program lojalnościowy",
+    "bonus_conditions": [
+      "Otwórz konto przez aplikację IKO lub serwis internetowy iPKO.",
+      "Wpisz kod promocyjny lub kod polecenia.",
+      "Wykonuj płatności kartą lub BLIKiem oraz zapewnij wpływ.",
+      "Odbierz nagrody pieniężne na rachunek."
+    ],
+    "promotion_limits": "Dla nowych klientów PKO Banku Polskiego.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów PKO BP w Polsce (największa sieć bankomatów własnych w kraju!). 0 zł za wypłaty kodem BLIK ze WSZYSTKICH bankomatów w Polsce! Wypłaty kartą z obcych bankomatów: 10 zł.",
+    "blik": true,
+    "blik_details": "Twórca BLIK-a. Zbliżeniowy BLIK, natychmiastowe przelewy na telefon, prośby o rozliczenie.",
+    "transfers": "0 zł za przelewy standardowe Elixir.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja IKO (selfie)", "e-Dowód", "Kurier"],
+    "additional_benefits": [
+      "Aplikacja IKO – najpopularniejsza i najwyżej oceniana aplikacja bankowa w Polsce",
+      "Dostęp do największej sieci oddziałów i wpłatomatów w kraju",
+      "Darmowe wypłaty BLIK ze wszystkich bankomatów w Polsce",
+      "Możliwość załatwiania spraw urzędowych przez profil zaufany i bankowość iPKO"
+    ],
+    "income_requirements": "Brak wymogu comiesięcznego wpływu pensji.",
+    "transaction_requirements": "Min. 5 płatności kartą lub BLIKiem w miesiącu.",
+    "age_requirement": "Dla osób pełnoletnich (wariant Konto dla Młodych 18-26 lat).",
+    "pros": [
+      "Aplikacja IKO z milionami zadowolonych użytkowników i mnóstwem funkcji",
+      "PKO BP to największy i najbezpieczniejszy polski bank",
+      "Darmowe wypłaty BLIK ze wszystkich bankomatów w Polsce",
+      "Największa sieć bankomatów i wpłatomatów własnych w całym kraju",
+      "Bogaty pakiet usług e-administracji (mObywatel, profil zaufany, wnioski 800+)"
+    ],
+    "cons": [
+      "Opłata 10 zł za kartę, jeśli nie wykonasz 5 transakcji",
+      "Wypłata kartą fizyczną z obcego bankomatu kosztuje aż 10 zł (choć BLIKiem 0 zł)"
+    ],
+    "for_who": [
+      "Dla osób ceniących bezpieczeństwo największego polskiego banku",
+      "Dla użytkowników ceniących rozbudowaną aplikację mobilną IKO",
+      "Dla osób często załatwiających sprawy urzędowe online"
+    ],
+    "not_for_who": [
+      "Dla osób wypłacających kartą z obcych bankomatów zamiast BLIKiem"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bez opłat przy posiadaniu karty" },
+      { "item": "Karta debetowa PKO", "cost": "0 zł / 10 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w okresie rozliczeniowym" },
+      { "item": "Wypłaty z bankomatów PKO BP", "cost": "0 zł", "condition": "Bez limitu z największej sieci w Polsce" },
+      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce za darmo" },
+      { "item": "Wypłaty kartą z obcych bankomatów", "cost": "10 zł", "condition": "Kartą (BLIKiem 0 zł)" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do serwisu PKO BP.",
+      "Zainstaluj aplikację IKO i wybierz otwarcie konta na selfie lub złóż wniosek online.",
+      "Zweryfikuj tożsamość e-Dowodem lub zdjęciem dokumentu.",
+      "Podpisz umowę kodem SMS.",
+      "Płać min. 5 razy kartą lub BLIKiem i ciesz się darmowym kontem."
+    ],
+    "faq": [
+      {
+        "q": "Jak uniknąć opłaty za kartę w PKO BP?",
+        "a": "Wystarczy wykonać min. 5 transakcji bezgotówkowych kartą debetową lub kodem BLIK w miesięcznym okresie rozliczeniowym."
+      },
+      {
+        "q": "Czy wypłata BLIK w bankomacie Euronet lub Planet Cash jest płatna?",
+        "a": "Nie! Wypłata kodem BLIK z każdego bankomatu w Polsce jest całkowicie darmowa."
+      }
+    ],
+    "affiliate_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
+    "source_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["osobiste", "mobilne"],
+    "logo_bg": "#003399",
+    "logo_text": "PKO BP",
+    "accent_color": "#003399"
+  },
+  {
+    "id": "credit-agricole-dla-ciebie",
+    "slug": "credit-agricole-konto-dla-ciebie",
+    "bank": "Credit Agricole",
+    "account_name": "Konto dla Ciebie",
+    "badge": "Duży Zwrot Gotówki",
+    "rating": 9.1,
+    "rating_breakdown": {
+      "costs": 2.0,
+      "atms": 1.4,
+      "mobile_app": 1.8,
+      "bonus": 2.0,
+      "convenience": 1.9
+    },
+    "monthly_fee": "0 zł lub 10 zł",
+    "monthly_fee_condition": "0 zł przy łącznym spełnieniu: wpływ min. 1000 zł i min. 1 płatność kartą lub BLIKiem w miesiącu (inaczej 10 zł). Do 26 lat: bezwarunkowo 0 zł.",
+    "card_fee": "0 zł lub 10 zł",
+    "card_fee_condition": "0 zł przy spełnieniu tego samego prostego warunku (wpływ 1000 zł + 1 płatność). Do 26 lat: 0 zł przy 1 płatności w miesiącu.",
+    "bonus": "do 1000 zł",
+    "bonus_short": "Nawet do 1000 zł zwrotów za płatności kartą/BLIK oraz promocyjne oprocentowanie na rachunku oszczędnościowym",
+    "bonus_conditions": [
+      "Otwórz Konto dla Ciebie przez aplikację mobilną CA24 Otwórz Konto.",
+      "Zapewnij comiesięczny wpływ min. 1000 zł.",
+      "Płać kartą lub BLIKiem w punktach gastronomicznych, restauracjach i sklepach, by odbierać wysoki cashback.",
+      "Zyskaj do 6,5% w skali roku na Rachunku Oszczędzam Plus."
+    ],
+    "promotion_limits": "Dla nowych klientów, którzy nie posiadali konta osobistego w Credit Agricole w okresie karencji.",
+    "atm_withdrawals": "0 zł ze wszystkich bankomatów w Polsce przy spełnieniu warunku aktywności konta (wpływ 1000 zł + 1 płatność). Bez warunku: darmowe bankomaty CA i Santander, pozostałe 7 zł. Wypłaty BLIK za 0 zł.",
+    "blik": true,
+    "blik_details": "BLIK, przelewy na numer telefonu, płatności online i wypłaty ze wszystkich bankomatów za 0 zł.",
+    "transfers": "0 zł za standardowe przelewy internetowe.",
+    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "apple_pay": true,
+    "google_pay": true,
+    "online_opening": true,
+    "online_opening_methods": ["Aplikacja mobilna CA24 (selfie)", "Kurier"],
+    "additional_benefits": [
+      "Darmowe wypłaty ze wszystkich bankomatów w Polsce przy spełnieniu prostego warunku konta",
+      "Klub Korzyści – rabaty do kilkudziesięciu procent u setek partnerów handlowych w Polsce",
+      "Wysokie oprocentowanie na Rachunku Oszczędzam Plus",
+      "Nowoczesna aplikacja CA24 Mobile z intuicyjną rzeką korzyści"
+    ],
+    "income_requirements": "Wpływ min. 1000 zł miesięcznie (może być przelew z innego banku).",
+    "transaction_requirements": "Min. 1 płatność kartą lub BLIKiem w miesiącu.",
+    "age_requirement": "Dla osób pełnoletnich (wariant MOVE! dla młodych 18-26 lat).",
+    "pros": [
+      "Premia nawet do 1000 zł zwrotu za codzienne płatności",
+      "Darmowe wypłaty ze WSZYSTKICH bankomatów w Polsce przy zaledwie 1 płatności i wpływie 1000 zł",
+      "Jeden z najbogatszych klubów rabatowych w Polsce (Klub Korzyści)",
+      "Bardzo dobre oprocentowanie środków na koncie oszczędnościowym",
+      "Dla osób do 26 lat brak wymogu wpływu 1000 zł"
+    ],
+    "cons": [
+      "Opłata 10 zł za konto i 10 zł za kartę w przypadku braku wpływu lub płatności",
+      "Wymóg regularnych płatności w gastronomii do osiągnięcia maksymalnego zwrotu"
+    ],
+    "for_who": [
+      "Dla osób często stołujących się w restauracjach i kawiarniach (wysoki cashback)",
+      "Dla osób chcących mieć darmowe wszystkie bankomaty w Polsce przy minimalnej aktywności",
+      "Dla korzystających z rabatów zakupowych"
+    ],
+    "not_for_who": [
+      "Dla osób bez stałych comiesięcznych wpływów na konto"
+    ],
+    "fee_table": [
+      { "item": "Prowadzenie konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy wpływie min. 1000 zł i 1 płatności kartą/BLIK" },
+      { "item": "Karta do konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy spełnieniu warunku konta" },
+      { "item": "Wypłaty ze wszystkich bankomatów w Polsce", "cost": "0 zł", "condition": "Przy spełnieniu warunku konta (wpływ 1000 zł + 1 płatność)" },
+      { "item": "Wypłaty z bankomatów CA i Santander", "cost": "0 zł", "condition": "Zawsze bezpłatne" },
+      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+    ],
+    "how_to_open_steps": [
+      "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza Credit Agricole.",
+      "Pobierz aplikację CA24 Otwórz Konto i zrób selfie z dowodem osobistym.",
+      "Wybierz wizerunek karty do konta.",
+      "Zapewnij wpływ min. 1000 zł i wykonaj min. 1 płatność w miesiącu.",
+      "Odbieraj wysokie zwroty i korzystaj z darmowych bankomatów w całym kraju."
+    ],
+    "faq": [
+      {
+        "q": "Jak mieć darmowe wypłaty ze wszystkich bankomatów w Polsce w Credit Agricole?",
+        "a": "Wystarczy spełnić standardowy warunek bezpłatności konta: zapewnić wpływ min. 1000 zł i wykonać co najmniej 1 płatność kartą lub BLIKiem w miesiącu. Wtedy wszystkie bankomaty w Polsce są za 0 zł."
+      }
+    ],
+    "affiliate_url": "https://tmlead.pl/redirect/338701_2395",
+    "source_url": "https://www.credit-agricole.pl/klienci-indywidualni/konta/konto-dla-ciebie",
+    "last_verified": "2026-10-08",
+    "is_promoted": false,
+    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "logo_bg": "#008375",
+    "logo_text": "Credit Agricole",
+    "accent_color": "#008375"
+  }
+]

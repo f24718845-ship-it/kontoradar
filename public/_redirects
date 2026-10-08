@@ -1,0 +1,17 @@
+# Cloudflare Pages 301 Redirects from old site (toksi.oferty-kredytowe.pl)
+/konta-osobiste /ranking-kont-bankowych 301
+/konta-oszczednosciowe /konto-bankowe-z-bonusem 301
+/konta-dla-firm /najlepsze-konta-bankowe 301
+/karty-kredytowe /porownywarka-kont-bankowych 301
+/lokaty-i-inwestycje /konto-bankowe-z-bonusem 301
+/kredyty-gotowkowe / 301
+/kredyty-konsolidacyjne / 301
+/kredyty-hipoteczne / 301
+/kredyty-samochodowe / 301
+/chwilowki /konto-bez-oplat 301
+/pozyczki /konto-bez-oplat 301
+/pozyczki-bankowe-online /najlepsze-konto-mobilne 301
+/ubezpieczenia-ac-oc / 301
+/pozostale-ubezpieczenia / 301
+/kredyty-dla-firm /najlepsze-konto-osobiste 301
+/pozostale /blog 301
