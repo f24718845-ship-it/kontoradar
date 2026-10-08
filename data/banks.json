@@ -10,7 +10,7 @@
       "costs": 2.4,
       "atms": 1.4,
       "mobile_app": 1.9,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł",
@@ -30,11 +30,21 @@
     "blik": true,
     "blik_details": "BLIK zbliżeniowy, przelewy na telefon BLIK (P2P), wypłaty z bankomatów kodem BLIK za 0 zł.",
     "transfers": "0 zł za standardowe przelewy internetowe w systemie Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja mobilna PeoPay (selfie)", "e-Dowód z warstwą elektroniczną", "mObywatel"],
+    "online_opening_methods": [
+      "Aplikacja mobilna PeoPay (selfie)",
+      "e-Dowód z warstwą elektroniczną",
+      "mObywatel"
+    ],
     "additional_benefits": [
       "Karta Wielowalutowa bez prowizji za przewalutowanie po kursach Mastercard/Visa",
       "Konto Oszczędnościowe z podwyższonym oprocentowaniem (do 5,7% w skali roku)",
@@ -64,12 +74,36 @@
       "Dla osób, które w ogóle nie korzystają z karty i nie mają comiesięcznych wpływów na konto"
     ],
     "fee_table": [
-      { "item": "Otwarcie i prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
-      { "item": "Obsługa karty debetowej", "cost": "0 zł / 4 zł", "condition": "0 zł przy wpływie min. 500 zł i 1 transakcji kartą/mies. (lub <26 lat)" },
-      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "Przez bankowość internetową i PeoPay" },
-      { "item": "Wypłata z bankomatów Pekao", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłata z obcych bankomatów", "cost": "0 zł", "condition": "2 pierwsze wypłaty w miesiącu za 0 zł przy spełnieniu warunku aktywności" },
-      { "item": "Wypłata BLIK w bankomatach", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+      {
+        "item": "Otwarcie i prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo"
+      },
+      {
+        "item": "Obsługa karty debetowej",
+        "cost": "0 zł / 4 zł",
+        "condition": "0 zł przy wpływie min. 500 zł i 1 transakcji kartą/mies. (lub <26 lat)"
+      },
+      {
+        "item": "Przelewy krajowe Elixir",
+        "cost": "0 zł",
+        "condition": "Przez bankowość internetową i PeoPay"
+      },
+      {
+        "item": "Wypłata z bankomatów Pekao",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłata z obcych bankomatów",
+        "cost": "0 zł",
+        "condition": "2 pierwsze wypłaty w miesiącu za 0 zł przy spełnieniu warunku aktywności"
+      },
+      {
+        "item": "Wypłata BLIK w bankomatach",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do oficjalnego formularza Banku Pekao S.A.",
@@ -92,11 +126,17 @@
         "a": "Premia gotówkowa wypłacana jest w transzach na rachunek konta w kolejnych miesiącach po spełnieniu warunków aktywności określonych w regulaminie promocji."
       }
     ],
-    "affiliate_url": "https://tmlead.pl/redirect/338701._1134",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_1134",
     "source_url": "https://www.pekao.com.pl/klient-indywidualny/codzienne-bankowanie/konta-osobiste/konto-przekorzystne.html",
     "last_verified": "2026-10-08",
     "is_promoted": true,
-    "category_tags": ["bonus", "dla-mlodych", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "bonus",
+      "dla-mlodych",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#c8102e",
     "logo_text": "Pekao",
     "accent_color": "#c8102e"
@@ -111,9 +151,9 @@
     "rating_breakdown": {
       "costs": 2.2,
       "atms": 1.4,
-      "mobile_app": 2.0,
+      "mobile_app": 2,
       "bonus": 1.9,
-      "convenience": 2.0
+      "convenience": 2
     },
     "monthly_fee": "0 zł",
     "monthly_fee_condition": "Bezwarunkowo 0 zł za otwarcie i prowadzenie rachunku.",
@@ -132,11 +172,21 @@
     "blik": true,
     "blik_details": "Pełna integracja z BLIK: przelewy na telefon, prośby o przelew, BLIK zbliżeniowy, płatności w internecie.",
     "transfers": "0 zł za standardowe przelewy internetowe.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja mobilna (weryfikacja na selfie)", "e-Dowód", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja mobilna (weryfikacja na selfie)",
+      "e-Dowód",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Moje Cele – automatyczne oszczędzanie końcówek kwot z transakcji z promocyjnym oprocentowaniem",
       "Jedna z najwyżej ocenianych aplikacji bankowych w Europie",
@@ -166,11 +216,31 @@
       "Dla osób często wypłacających z bankomatu małe kwoty gotówki (np. 50-100 zł)"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
-      { "item": "Karta debetowa do konta", "cost": "0 zł / 9 zł", "condition": "0 zł przy płatnościach min. 350 zł/mies." },
-      { "item": "Wypłaty z bankomatów w Polsce", "cost": "0 zł", "condition": "Dla wypłat od 300 zł (poniżej 300 zł: 2,50 zł)" },
-      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Dla kwot od 300 zł" },
-      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "W bankowości internetowej i mobilnej" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo"
+      },
+      {
+        "item": "Karta debetowa do konta",
+        "cost": "0 zł / 9 zł",
+        "condition": "0 zł przy płatnościach min. 350 zł/mies."
+      },
+      {
+        "item": "Wypłaty z bankomatów w Polsce",
+        "cost": "0 zł",
+        "condition": "Dla wypłat od 300 zł (poniżej 300 zł: 2,50 zł)"
+      },
+      {
+        "item": "Wypłaty BLIK",
+        "cost": "0 zł",
+        "condition": "Dla kwot od 300 zł"
+      },
+      {
+        "item": "Przelewy krajowe Elixir",
+        "cost": "0 zł",
+        "condition": "W bankowości internetowej i mobilnej"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do wniosku promocyjnego mBanku.",
@@ -189,11 +259,16 @@
         "a": "Bank naliczy opłatę w wysokości 2,50 zł za pojedynczą transakcję. Aby tego uniknąć, wypłacaj kwoty równe lub wyższe niż 300 zł lub płać bezgotówkowo BLIKiem."
       }
     ],
-    "affiliate_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_1498",
     "source_url": "https://www.mbank.pl/indywidualni/konta/konta-osobiste/ekonto-do-uslug/",
     "last_verified": "2026-10-08",
     "is_promoted": true,
-    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#d92d27",
     "logo_text": "mBank",
     "accent_color": "#d92d27"
@@ -210,7 +285,7 @@
       "atms": 1.3,
       "mobile_app": 1.8,
       "bonus": 1.8,
-      "convenience": 2.0
+      "convenience": 2
     },
     "monthly_fee": "0 zł",
     "monthly_fee_condition": "Bezwarunkowo 0 zł bez żadnych gwiazdek i bez konieczności spełniania warunków.",
@@ -229,11 +304,21 @@
     "blik": true,
     "blik_details": "BLIK, przelewy na telefon, płatności w internecie i wypłaty ze wszystkich bankomatów za 0 zł.",
     "transfers": "0 zł za standardowe przelewy internetowe Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Weryfikacja na selfie w aplikacji", "Przelew weryfikacyjny", "Kurier"],
+    "online_opening_methods": [
+      "Weryfikacja na selfie w aplikacji",
+      "Przelew weryfikacyjny",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Prawdziwe 0 zł bez ukrytych haczyków – nie musisz pamiętać o comiesięcznych transakcjach",
       "Świetna oferta depozytowa (Nest Oszczędności i Lokata Witaj)",
@@ -263,12 +348,36 @@
       "Dla osób potrzebujących częstych wpłat gotówki w stacjonarnych oddziałach bankowych"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo bez opłat" },
-      { "item": "Karta debetowa Visa", "cost": "0 zł", "condition": "Bezwarunkowo bez opłat" },
-      { "item": "Wypłaty z bankomatów Euronet", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty BLIK ze wszystkich bankomatów", "cost": "0 zł", "condition": "W całej Polsce" },
-      { "item": "Wypłaty z pozostałych bankomatów kartą", "cost": "6 zł", "condition": "Kartą (BLIKiem 0 zł)" },
-      { "item": "Krajowe przelewy internetowe", "cost": "0 zł", "condition": "Przez aplikację i serwis www" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo bez opłat"
+      },
+      {
+        "item": "Karta debetowa Visa",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo bez opłat"
+      },
+      {
+        "item": "Wypłaty z bankomatów Euronet",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty BLIK ze wszystkich bankomatów",
+        "cost": "0 zł",
+        "condition": "W całej Polsce"
+      },
+      {
+        "item": "Wypłaty z pozostałych bankomatów kartą",
+        "cost": "6 zł",
+        "condition": "Kartą (BLIKiem 0 zł)"
+      },
+      {
+        "item": "Krajowe przelewy internetowe",
+        "cost": "0 zł",
+        "condition": "Przez aplikację i serwis www"
+      }
     ],
     "how_to_open_steps": [
       "Przejdź na stronę Nest Banku klikając 'SPRAWDŹ OFERTĘ'.",
@@ -287,11 +396,16 @@
         "a": "Najprostszą metodą jest użycie kodu BLIK – wówczas wypłaty są darmowe ze wszystkich bankomatów w Polsce. Przy użyciu karty plastikowej darmowe są wszystkie bankomaty Euronet."
       }
     ],
-    "affiliate_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_2353",
     "source_url": "https://nestbank.pl/dla-ciebie/konta/nest-konto",
     "last_verified": "2026-10-08",
     "is_promoted": true,
-    "category_tags": ["darmowe", "bez-oplat", "osobiste", "najlepsze"],
+    "category_tags": [
+      "darmowe",
+      "bez-oplat",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#002d72",
     "logo_text": "Nest",
     "accent_color": "#002d72"
@@ -307,7 +421,7 @@
       "costs": 2.1,
       "atms": 1.4,
       "mobile_app": 1.9,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł lub 6 zł",
@@ -327,11 +441,21 @@
     "blik": true,
     "blik_details": "BLIK zbliżeniowy, przelewy na numer telefonu, wypłaty ze wszystkich bankomatów za 0 zł.",
     "transfers": "0 zł za przelewy natychmiastowe Express Elixir (unikalna korzyść Santander!) oraz przelewy standardowe.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja mobilna (selfie)", "e-Dowód", "Przelew weryfikacyjny"],
+    "online_opening_methods": [
+      "Aplikacja mobilna (selfie)",
+      "e-Dowód",
+      "Przelew weryfikacyjny"
+    ],
     "additional_benefits": [
       "Darmowe przelewy natychmiastowe Express Elixir bez limitu w bankowości internetowej i mobilnej",
       "CyberRescue – bezpłatna ochrona i wsparcie specjalistów ds. cyberbezpieczeństwa",
@@ -361,12 +485,36 @@
       "Dla osób, które nie mogą zapewnić wpływu 1000 zł i nie korzystają z karty"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł / 6 zł", "condition": "0 zł przy wpływie min. 1000 zł i 1 transakcji kartą/BLIK" },
-      { "item": "Karta Dopasowana", "cost": "0 zł / 9 zł", "condition": "0 zł w pakiecie z warunkiem powyżej" },
-      { "item": "Przelewy natychmiastowe Express Elixir", "cost": "0 zł", "condition": "Bez limitu za darmo!" },
-      { "item": "Wypłaty z bankomatów Santander", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" },
-      { "item": "Wypłaty kartą z obcych bankomatów", "cost": "5 zł", "condition": "Kartą (BLIKiem 0 zł)" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł / 6 zł",
+        "condition": "0 zł przy wpływie min. 1000 zł i 1 transakcji kartą/BLIK"
+      },
+      {
+        "item": "Karta Dopasowana",
+        "cost": "0 zł / 9 zł",
+        "condition": "0 zł w pakiecie z warunkiem powyżej"
+      },
+      {
+        "item": "Przelewy natychmiastowe Express Elixir",
+        "cost": "0 zł",
+        "condition": "Bez limitu za darmo!"
+      },
+      {
+        "item": "Wypłaty z bankomatów Santander",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty BLIK w Polsce",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      },
+      {
+        "item": "Wypłaty kartą z obcych bankomatów",
+        "cost": "5 zł",
+        "condition": "Kartą (BLIKiem 0 zł)"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź na stronę Santander Bank Polska.",
@@ -385,11 +533,16 @@
         "a": "Wystarczy zgłosić w bankowości faktury za gaz, prąd, telefon czy internet i opłacać je z Konta Santander – bank zwraca 1% wartości opłat (do 25 zł miesięcznie, czyli do 300 zł rocznie)."
       }
     ],
-    "affiliate_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_3075",
     "source_url": "https://www.santander.pl/klient-indywidualny/konta/konto-santander",
     "last_verified": "2026-10-08",
     "is_promoted": true,
-    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#ec0000",
     "logo_text": "Santander",
     "accent_color": "#ec0000"
@@ -425,11 +578,21 @@
     "blik": true,
     "blik_details": "BLIK zbliżeniowy, przelewy na telefon, transakcje online i wypłaty z bankomatów.",
     "transfers": "0 zł za przelewy standardowe Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Selfie w aplikacji mobilnej", "Logowanie przez inny bank (otwarta bankowość)", "Kurier"],
+    "online_opening_methods": [
+      "Selfie w aplikacji mobilnej",
+      "Logowanie przez inny bank (otwarta bankowość)",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Darmowe bankomaty na całym świecie przy zaledwie 5 płatnościach miesięcznie",
       "Pakiet walutowy do 1000 zł miesięcznie bez prowizji za przewalutowanie",
@@ -459,11 +622,31 @@
       "Dla osób, które sporadycznie płacą kartą i mogą zapomnieć o wykonaniu 5 transakcji"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo" },
-      { "item": "Obsługa karty debetowej", "cost": "0 zł / 11 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (1 płatność dla wieku 18-26)" },
-      { "item": "Wypłaty ze wszystkich bankomatów w Polsce", "cost": "0 zł", "condition": "Przy spełnieniu warunku 5 płatności (lub 1 dla <26)" },
-      { "item": "Wypłaty z bankomatów za granicą", "cost": "0 zł", "condition": "Przy spełnieniu warunku płatności" },
-      { "item": "Przelewy krajowe Elixir", "cost": "0 zł", "condition": "W bankowości internetowej i aplikacji" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo"
+      },
+      {
+        "item": "Obsługa karty debetowej",
+        "cost": "0 zł / 11 zł",
+        "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (1 płatność dla wieku 18-26)"
+      },
+      {
+        "item": "Wypłaty ze wszystkich bankomatów w Polsce",
+        "cost": "0 zł",
+        "condition": "Przy spełnieniu warunku 5 płatności (lub 1 dla <26)"
+      },
+      {
+        "item": "Wypłaty z bankomatów za granicą",
+        "cost": "0 zł",
+        "condition": "Przy spełnieniu warunku płatności"
+      },
+      {
+        "item": "Przelewy krajowe Elixir",
+        "cost": "0 zł",
+        "condition": "W bankowości internetowej i aplikacji"
+      }
     ],
     "how_to_open_steps": [
       "Przejdź na stronę Banku Millennium klikając 'SPRAWDŹ OFERTĘ'.",
@@ -482,11 +665,17 @@
         "a": "Tak! Zarówno płatności kartą debetową, jak i transakcje zbliżeniowe lub internetowe BLIK zaliczają się do limitu 5 wymaganych płatności."
       }
     ],
-    "affiliate_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_2402",
     "source_url": "https://www.bankmillennium.pl/klienci-indywidualni/konta-osobiste/millennium-360",
     "last_verified": "2026-10-08",
     "is_promoted": true,
-    "category_tags": ["dla-mlodych", "bonus", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "dla-mlodych",
+      "bonus",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#a50050",
     "logo_text": "Millennium",
     "accent_color": "#a50050"
@@ -501,9 +690,9 @@
     "rating_breakdown": {
       "costs": 2.1,
       "atms": 1.4,
-      "mobile_app": 2.0,
+      "mobile_app": 2,
       "bonus": 1.8,
-      "convenience": 2.0
+      "convenience": 2
     },
     "monthly_fee": "0 zł",
     "monthly_fee_condition": "Bezwarunkowo 0 zł za otwarcie i prowadzenie konta.",
@@ -522,11 +711,18 @@
     "blik": true,
     "blik_details": "Pełny BLIK: przelewy na telefon, prośby o rozliczenie, płatności w internecie i sklepach stacjonarnych.",
     "transfers": "0 zł za przelewy standardowe Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja Moje ING (weryfikacja na selfie)", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja Moje ING (weryfikacja na selfie)",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Otwarte Konto Oszczędnościowe (OKO) z podwyższonym promocyjnym oprocentowaniem",
       "Aplikacja Moje ING – jedna z najlepiej ocenianych i najbardziej stabilnych aplikacji w Polsce",
@@ -556,11 +752,31 @@
       "Dla osób sporadycznie korzystających z karty debetowej i często wypłacających z Euronetu"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
-      { "item": "Karta Visa zbliżeniowa", "cost": "0 zł / 10 zł", "condition": "0 zł przy sumie płatności min. 300 zł/mies. (lub wiek 18-26)" },
-      { "item": "Wypłaty z bankomatów ING i Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty z innych bankomatów kartą", "cost": "0 zł / 5-10 zł", "condition": "Pierwsza wypłata w miesiącu 0 zł, kolejne płatne" },
-      { "item": "Przelewy Elixir przez internet", "cost": "0 zł", "condition": "Bez limitu w aplikacji i bankowości" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo 0 zł"
+      },
+      {
+        "item": "Karta Visa zbliżeniowa",
+        "cost": "0 zł / 10 zł",
+        "condition": "0 zł przy sumie płatności min. 300 zł/mies. (lub wiek 18-26)"
+      },
+      {
+        "item": "Wypłaty z bankomatów ING i Planet Cash",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty z innych bankomatów kartą",
+        "cost": "0 zł / 5-10 zł",
+        "condition": "Pierwsza wypłata w miesiącu 0 zł, kolejne płatne"
+      },
+      {
+        "item": "Przelewy Elixir przez internet",
+        "cost": "0 zł",
+        "condition": "Bez limitu w aplikacji i bankowości"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do strony ING Banku Śląskiego.",
@@ -583,7 +799,12 @@
     "source_url": "https://www.ing.pl/indywidualni/konta-osobiste/konto-direct",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#ff6200",
     "logo_text": "ING",
     "accent_color": "#ff6200"
@@ -599,7 +820,7 @@
       "costs": 2.1,
       "atms": 1.4,
       "mobile_app": 1.8,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł lub 10 zł",
@@ -619,11 +840,21 @@
     "blik": true,
     "blik_details": "BLIK, przelewy na telefon, płatności kodem i zbliżeniowe.",
     "transfers": "0 zł za standardowe przelewy internetowe.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Selfie w aplikacji Alior Mobile", "Video-weryfikacja", "Kurier"],
+    "online_opening_methods": [
+      "Selfie w aplikacji Alior Mobile",
+      "Video-weryfikacja",
+      "Kurier"
+    ],
     "additional_benefits": [
       "2 bezpłatne korzyści do wyboru (np. 1% moneyback za płatności telefonem, darmowe bankomaty, pakiet bezpłatnych przelewów natychmiastowych, ubezpieczenie w podróży)",
       "Konto Oszczędnościowe z podwyższonym oprocentowaniem w ramach wybranej korzyści",
@@ -653,11 +884,31 @@
       "Dla osób bez stałego comiesięcznego wpływu min. 1500 zł"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy wpływie min. 1500 zł/mies. (lub wiek <26)" },
-      { "item": "Karta do konta", "cost": "0 zł / 5 zł", "condition": "0 zł przy płatnościach min. 300 zł/mies." },
-      { "item": "Wypłaty z bankomatów Alior", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" },
-      { "item": "Wypłaty z innych bankomatów kartą", "cost": "2,50 zł lub 0 zł", "condition": "0 zł z aktywną korzyścią 'Bezpłatne bankomaty w Polsce'" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł / 10 zł",
+        "condition": "0 zł przy wpływie min. 1500 zł/mies. (lub wiek <26)"
+      },
+      {
+        "item": "Karta do konta",
+        "cost": "0 zł / 5 zł",
+        "condition": "0 zł przy płatnościach min. 300 zł/mies."
+      },
+      {
+        "item": "Wypłaty z bankomatów Alior",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty BLIK w Polsce",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      },
+      {
+        "item": "Wypłaty z innych bankomatów kartą",
+        "cost": "2,50 zł lub 0 zł",
+        "condition": "0 zł z aktywną korzyścią 'Bezpłatne bankomaty w Polsce'"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza Alior Banku.",
@@ -676,11 +927,15 @@
         "a": "Nie, może to być jednorazowy przelew z Twojego konta w innym banku."
       }
     ],
-    "affiliate_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_3110",
     "source_url": "https://www.aliorbank.pl/klienci-indywidualni/konta-osobiste/konto-jakze-osobiste.html",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste"
+    ],
     "logo_bg": "#7a0026",
     "logo_text": "Alior",
     "accent_color": "#7a0026"
@@ -696,7 +951,7 @@
       "costs": 2.2,
       "atms": 1.4,
       "mobile_app": 1.8,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł",
@@ -716,11 +971,20 @@
     "blik": true,
     "blik_details": "BLIK, przelewy na telefon, płatności w internecie i darmowe wypłaty z bankomatów.",
     "transfers": "0 zł za standardowe przelewy internetowe.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja mobilna (selfie)", "mObywatel", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja mobilna (selfie)",
+      "mObywatel",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Aż 10% realnego zwrotu za zakupy (cashback na konto)",
       "Elastyczne Konto Oszczędnościowe (EKO) z jednym z najwyższych oprocentowań w Polsce",
@@ -750,11 +1014,31 @@
       "Dla osób niepłacących kartą ani telefonem"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
-      { "item": "Karta debetowa", "cost": "0 zł / 7 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (lub wiek <26)" },
-      { "item": "Wypłaty z bankomatów Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty z innych bankomatów w Polsce", "cost": "0 zł / 5 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w miesiącu" },
-      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo 0 zł"
+      },
+      {
+        "item": "Karta debetowa",
+        "cost": "0 zł / 7 zł",
+        "condition": "0 zł przy min. 5 płatnościach kartą/BLIK (lub wiek <26)"
+      },
+      {
+        "item": "Wypłaty z bankomatów Planet Cash",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty z innych bankomatów w Polsce",
+        "cost": "0 zł / 5 zł",
+        "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w miesiącu"
+      },
+      {
+        "item": "Wypłaty BLIK",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do wniosku VeloBanku.",
@@ -768,11 +1052,16 @@
         "a": "Za każdą transakcję bezgotówkową kartą lub BLIKiem bank zwraca 10% jej wartości na Twoje konto (maksymalnie 100 zł miesięcznie przez pierwsze miesiące, łącznie do 650 zł premii)."
       }
     ],
-    "affiliate_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_3162",
     "source_url": "https://www.velobank.pl/klienci-indywidualni/konta-osobiste/velokonto.html",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["bonus", "mobilne", "osobiste", "najlepsze"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste",
+      "najlepsze"
+    ],
     "logo_bg": "#009639",
     "logo_text": "VeloBank",
     "accent_color": "#009639"
@@ -788,7 +1077,7 @@
       "costs": 2.2,
       "atms": 1.3,
       "mobile_app": 1.8,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł",
@@ -808,11 +1097,20 @@
     "blik": true,
     "blik_details": "BLIK, przelewy na telefon, transakcje zbliżeniowe i internetowe.",
     "transfers": "0 zł za standardowe przelewy internetowe Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja GOmobile (selfie)", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja GOmobile (selfie)",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Jedne z najwyższych premii finansowych na polskim rynku bankowym",
       "Karta Otwarta na Świat – płatności w niemal 160 walutach po kursach Mastercard bez kosztów przewalutowania",
@@ -842,11 +1140,31 @@
       "Dla osób niechętnych spełnianiu kilkuetapowych warunków premiowych"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bezwarunkowo 0 zł" },
-      { "item": "Karta Otwarta na Dzisiaj", "cost": "0 zł / 7 zł", "condition": "0 zł przy min. 3 płatnościach kartą/mies. (lub wiek <26)" },
-      { "item": "Wypłaty z bankomatów BNP Paribas i Planet Cash", "cost": "0 zł", "condition": "Bez limitu" },
-      { "item": "Wypłaty z innych bankomatów kartą", "cost": "7 zł", "condition": "Kartą (BLIKiem 0 zł)" },
-      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bezwarunkowo 0 zł"
+      },
+      {
+        "item": "Karta Otwarta na Dzisiaj",
+        "cost": "0 zł / 7 zł",
+        "condition": "0 zł przy min. 3 płatnościach kartą/mies. (lub wiek <26)"
+      },
+      {
+        "item": "Wypłaty z bankomatów BNP Paribas i Planet Cash",
+        "cost": "0 zł",
+        "condition": "Bez limitu"
+      },
+      {
+        "item": "Wypłaty z innych bankomatów kartą",
+        "cost": "7 zł",
+        "condition": "Kartą (BLIKiem 0 zł)"
+      },
+      {
+        "item": "Wypłaty BLIK",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza promocji BNP Paribas.",
@@ -861,11 +1179,15 @@
         "a": "W zależności od aktualnej edycji promocji nagrody to bezpośrednie przelewy gotówkowe na konto lub karty podarunkowe (np. Allegro, Biedronka) przesyłane w formie kodów elektronicznych."
       }
     ],
-    "affiliate_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_3156",
     "source_url": "https://www.bnpparibas.pl/klienci-indywidualni/konta/konto-otwarte-na-ciebie",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste"
+    ],
     "logo_bg": "#00915a",
     "logo_text": "BNP Paribas",
     "accent_color": "#00915a"
@@ -880,7 +1202,7 @@
     "rating_breakdown": {
       "costs": 2.1,
       "atms": 1.4,
-      "mobile_app": 2.0,
+      "mobile_app": 2,
       "bonus": 1.7,
       "convenience": 1.9
     },
@@ -901,11 +1223,21 @@
     "blik": true,
     "blik_details": "Twórca BLIK-a. Zbliżeniowy BLIK, natychmiastowe przelewy na telefon, prośby o rozliczenie.",
     "transfers": "0 zł za przelewy standardowe Elixir.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja IKO (selfie)", "e-Dowód", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja IKO (selfie)",
+      "e-Dowód",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Aplikacja IKO – najpopularniejsza i najwyżej oceniana aplikacja bankowa w Polsce",
       "Dostęp do największej sieci oddziałów i wpłatomatów w kraju",
@@ -935,11 +1267,31 @@
       "Dla osób wypłacających kartą z obcych bankomatów zamiast BLIKiem"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł", "condition": "Bez opłat przy posiadaniu karty" },
-      { "item": "Karta debetowa PKO", "cost": "0 zł / 10 zł", "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w okresie rozliczeniowym" },
-      { "item": "Wypłaty z bankomatów PKO BP", "cost": "0 zł", "condition": "Bez limitu z największej sieci w Polsce" },
-      { "item": "Wypłaty BLIK w Polsce", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce za darmo" },
-      { "item": "Wypłaty kartą z obcych bankomatów", "cost": "10 zł", "condition": "Kartą (BLIKiem 0 zł)" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł",
+        "condition": "Bez opłat przy posiadaniu karty"
+      },
+      {
+        "item": "Karta debetowa PKO",
+        "cost": "0 zł / 10 zł",
+        "condition": "0 zł przy min. 5 płatnościach kartą/BLIK w okresie rozliczeniowym"
+      },
+      {
+        "item": "Wypłaty z bankomatów PKO BP",
+        "cost": "0 zł",
+        "condition": "Bez limitu z największej sieci w Polsce"
+      },
+      {
+        "item": "Wypłaty BLIK w Polsce",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce za darmo"
+      },
+      {
+        "item": "Wypłaty kartą z obcych bankomatów",
+        "cost": "10 zł",
+        "condition": "Kartą (BLIKiem 0 zł)"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do serwisu PKO BP.",
@@ -958,11 +1310,14 @@
         "a": "Nie! Wypłata kodem BLIK z każdego bankomatu w Polsce jest całkowicie darmowa."
       }
     ],
-    "affiliate_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
+    "affiliate_url": "https://tmlead.pl/redirect/338701_3055",
     "source_url": "https://www.pkobp.pl/klienci-indywidualni/konta/konta-osobiste/pko-konto-za-zero",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["osobiste", "mobilne"],
+    "category_tags": [
+      "osobiste",
+      "mobilne"
+    ],
     "logo_bg": "#003399",
     "logo_text": "PKO BP",
     "accent_color": "#003399"
@@ -975,10 +1330,10 @@
     "badge": "Duży Zwrot Gotówki",
     "rating": 9.1,
     "rating_breakdown": {
-      "costs": 2.0,
+      "costs": 2,
       "atms": 1.4,
       "mobile_app": 1.8,
-      "bonus": 2.0,
+      "bonus": 2,
       "convenience": 1.9
     },
     "monthly_fee": "0 zł lub 10 zł",
@@ -998,11 +1353,20 @@
     "blik": true,
     "blik_details": "BLIK, przelewy na numer telefonu, płatności online i wypłaty ze wszystkich bankomatów za 0 zł.",
     "transfers": "0 zł za standardowe przelewy internetowe.",
-    "mobile_payments": ["Apple Pay", "Google Pay", "Garmin Pay", "Fitbit Pay", "SwatchPAY!"],
+    "mobile_payments": [
+      "Apple Pay",
+      "Google Pay",
+      "Garmin Pay",
+      "Fitbit Pay",
+      "SwatchPAY!"
+    ],
     "apple_pay": true,
     "google_pay": true,
     "online_opening": true,
-    "online_opening_methods": ["Aplikacja mobilna CA24 (selfie)", "Kurier"],
+    "online_opening_methods": [
+      "Aplikacja mobilna CA24 (selfie)",
+      "Kurier"
+    ],
     "additional_benefits": [
       "Darmowe wypłaty ze wszystkich bankomatów w Polsce przy spełnieniu prostego warunku konta",
       "Klub Korzyści – rabaty do kilkudziesięciu procent u setek partnerów handlowych w Polsce",
@@ -1032,11 +1396,31 @@
       "Dla osób bez stałych comiesięcznych wpływów na konto"
     ],
     "fee_table": [
-      { "item": "Prowadzenie konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy wpływie min. 1000 zł i 1 płatności kartą/BLIK" },
-      { "item": "Karta do konta", "cost": "0 zł / 10 zł", "condition": "0 zł przy spełnieniu warunku konta" },
-      { "item": "Wypłaty ze wszystkich bankomatów w Polsce", "cost": "0 zł", "condition": "Przy spełnieniu warunku konta (wpływ 1000 zł + 1 płatność)" },
-      { "item": "Wypłaty z bankomatów CA i Santander", "cost": "0 zł", "condition": "Zawsze bezpłatne" },
-      { "item": "Wypłaty BLIK", "cost": "0 zł", "condition": "Wszystkie bankomaty w Polsce" }
+      {
+        "item": "Prowadzenie konta",
+        "cost": "0 zł / 10 zł",
+        "condition": "0 zł przy wpływie min. 1000 zł i 1 płatności kartą/BLIK"
+      },
+      {
+        "item": "Karta do konta",
+        "cost": "0 zł / 10 zł",
+        "condition": "0 zł przy spełnieniu warunku konta"
+      },
+      {
+        "item": "Wypłaty ze wszystkich bankomatów w Polsce",
+        "cost": "0 zł",
+        "condition": "Przy spełnieniu warunku konta (wpływ 1000 zł + 1 płatność)"
+      },
+      {
+        "item": "Wypłaty z bankomatów CA i Santander",
+        "cost": "0 zł",
+        "condition": "Zawsze bezpłatne"
+      },
+      {
+        "item": "Wypłaty BLIK",
+        "cost": "0 zł",
+        "condition": "Wszystkie bankomaty w Polsce"
+      }
     ],
     "how_to_open_steps": [
       "Kliknij 'SPRAWDŹ OFERTĘ' i przejdź do formularza Credit Agricole.",
@@ -1055,7 +1439,11 @@
     "source_url": "https://www.credit-agricole.pl/klienci-indywidualni/konta/konto-dla-ciebie",
     "last_verified": "2026-10-08",
     "is_promoted": false,
-    "category_tags": ["bonus", "mobilne", "osobiste"],
+    "category_tags": [
+      "bonus",
+      "mobilne",
+      "osobiste"
+    ],
     "logo_bg": "#008375",
     "logo_text": "Credit Agricole",
     "accent_color": "#008375"
