@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Scale, X, ArrowRight } from 'lucide-react';
 import { BankOffer } from '@/types/bank';
+import { trackComparisonStarted } from '@/lib/analytics';
 
 interface ComparisonBarProps {
   selectedOffers: BankOffer[];
@@ -70,6 +71,12 @@ export const ComparisonBar: React.FC<ComparisonBarProps> = ({
 
           <Link
             href={`/porownywarka-kont-bankowych?ids=${selectedOffers.map((o) => o.slug).join(',')}`}
+            onClick={() => {
+              trackComparisonStarted(
+                selectedOffers.length,
+                selectedOffers.map((o) => o.bank)
+              );
+            }}
             className="inline-flex items-center gap-1.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold text-xs sm:text-sm px-4 py-2 rounded-xl shadow-lg transition-all"
           >
             <span>Porównaj teraz</span>

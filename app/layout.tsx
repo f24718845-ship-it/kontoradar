@@ -3,6 +3,7 @@ import './globals.css';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kontoradar.pages.dev'),
@@ -31,6 +32,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  alternates: {
+    canonical: 'https://kontoradar.pages.dev/',
+  },
+  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION_TOKEN
+    ? {
+        google: process.env.NEXT_PUBLIC_GSC_VERIFICATION_TOKEN.trim(),
+      }
+    : undefined,
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
@@ -104,6 +113,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans antialiased">
+        <GoogleAnalytics />
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />

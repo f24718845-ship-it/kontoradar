@@ -9,6 +9,8 @@ import { FilterBar, FilterKey, SortKey } from '@/components/FilterBar';
 import { RatingExplainer } from '@/components/RatingExplainer';
 import { ComparisonBar } from '@/components/ComparisonBar';
 import { FAQSection, FAQItem } from '@/components/FAQSection';
+import { CalculatorSection } from '@/components/Calculator';
+import { trackComparisonStarted } from '@/lib/analytics';
 import { 
   ShieldCheck, 
   Sparkles, 
@@ -97,7 +99,13 @@ export default function HomePage() {
       setComparedSlugs(comparedSlugs.filter((s) => s !== slug));
     } else {
       if (comparedSlugs.length < 4) {
-        setComparedSlugs([...comparedSlugs, slug]);
+        const nextSlugs = [...comparedSlugs, slug];
+        setComparedSlugs(nextSlugs);
+        const bank = allBanks.find((b) => b.slug === slug);
+        trackComparisonStarted(nextSlugs.length, [
+          ...selectedComparedOffers.map((b) => b.bank),
+          bank?.bank || slug,
+        ]);
       } else {
         alert('Możesz porównać maksymalnie 4 oferty jednocześnie.');
       }
@@ -236,6 +244,9 @@ export default function HomePage() {
             </div>
           )}
         </section>
+
+        {/* Section: Kalkulator korzyści finansowych */}
+        <CalculatorSection />
 
         {/* Section: Jak tworzymy ranking? */}
         <div className="mt-16">

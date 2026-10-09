@@ -1,12 +1,17 @@
 'use client';
 
-import React, { useState, useEffect, useMemo, Suspense } from 'react';
+import React, { useState, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { getAllBanks } from '@/lib/data';
 import { BankOffer } from '@/types/bank';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { trackAffiliateClick, trackEvent } from '@/lib/analytics';
+import { 
+  trackAffiliateClick, 
+  trackOfferClick, 
+  trackComparisonStarted, 
+  trackComparisonCompleted 
+} from '@/lib/analytics';
 import { 
   Scale, 
   Check, 
@@ -27,6 +32,7 @@ function ComparisonContent() {
 
   // Selected slugs from URL or default top 3
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
+  const completedTrackedRef = useRef<string>('');
 
   useEffect(() => {
     const idsParam = searchParams.get('ids');
@@ -47,10 +53,26 @@ function ComparisonContent() {
       .filter((b): b is BankOffer => b !== undefined);
   }, [selectedSlugs, allBanks]);
 
+  // Track comparison_completed when comparison table with 2+ offers is viewed
+  useEffect(() => {
+    if (selectedBanks.length >= 2) {
+      const key = selectedBanks.map((b) => b.slug).sort().join(',');
+      if (completedTrackedRef.current !== key) {
+        completedTrackedRef.current = key;
+        trackComparisonCompleted(selectedBanks.length, selectedBanks.map((b) => b.bank));
+      }
+    }
+  }, [selectedBanks]);
+
   const handleAddBank = (slug: string) => {
     if (selectedSlugs.length < 4 && !selectedSlugs.includes(slug)) {
-      setSelectedSlugs([...selectedSlugs, slug]);
-      trackEvent('comparison_started', { comparison_count: selectedSlugs.length + 1 });
+      const nextSlugs = [...selectedSlugs, slug];
+      setSelectedSlugs(nextSlugs);
+      const bank = allBanks.find((b) => b.slug === slug);
+      trackComparisonStarted(nextSlugs.length, [
+        ...selectedBanks.map((b) => b.bank),
+        bank?.bank || slug,
+      ]);
     }
   };
 
@@ -161,7 +183,16 @@ function ComparisonContent() {
                           href={b.affiliate_url}
                           target="_blank"
                           rel="noopener noreferrer sponsored"
-                          onClick={() => trackAffiliateClick(b.bank, b.account_name, b.affiliate_url, b.id)}
+                          onClick={() => {
+                            trackAffiliateClick(b.bank, b.account_name, b.affiliate_url, b.id);
+                            trackOfferClick({
+                              bank_name: b.bank,
+                              account_name: b.account_name,
+                              offer_id: b.id,
+                              cta_label: 'Porównywarka - SPRAWDŹ OFERTĘ',
+                              destination_url: b.affiliate_url,
+                            });
+                          }}
                           className="flex items-center justify-center gap-1.5 w-full py-2.5 px-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-extrabold shadow-sm transition-all"
                         >
                           <span>SPRAWDŹ OFERTĘ</span>
@@ -292,6 +323,15 @@ function ComparisonContent() {
                     <td key={b.slug} className="p-4">
                       <Link
                         href={`/konto/${b.slug}`}
+                        onClick={() => {
+                          trackOfferClick({
+                            bank_name: b.bank,
+                            account_name: b.account_name,
+                            offer_id: b.id,
+                            cta_label: 'Porównywarka - Zobacz szczegółową recenzję',
+                            destination_url: `/konto/${b.slug}`,
+                          });
+                        }}
                         className="text-xs font-bold text-blue-600 hover:text-blue-800 hover:underline"
                       >
                         Zobacz szczegółową recenzję &rarr;

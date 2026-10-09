@@ -13,7 +13,7 @@ import {
   Flame,
   ArrowUpDown
 } from 'lucide-react';
-import { trackEvent } from '@/lib/analytics';
+import { trackFilterUsed } from '@/lib/analytics';
 
 export type FilterKey =
   | 'all'
@@ -57,7 +57,12 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
   const handleSelectFilter = (key: FilterKey) => {
     onFilterChange(key);
-    trackEvent('filter_used', { filter_name: 'category', filter_value: key });
+    trackFilterUsed('category', key, totalCount);
+  };
+
+  const handleSelectSort = (sort: SortKey) => {
+    onSortChange(sort);
+    trackFilterUsed('sort_order', sort, totalCount);
   };
 
   return (
@@ -81,7 +86,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           </span>
           <select
             value={activeSort}
-            onChange={(e) => onSortChange(e.target.value as SortKey)}
+            onChange={(e) => handleSelectSort(e.target.value as SortKey)}
             className="bg-slate-50 border border-slate-200 text-slate-800 font-semibold rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-blue-500 focus:outline-none"
           >
             <option value="rating">Najwyższa ocena punktowa</option>

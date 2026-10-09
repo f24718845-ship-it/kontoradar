@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { getAllBanks, getBankBySlug } from '@/lib/data';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FAQSection } from '@/components/FAQSection';
+import { AffiliateButton } from '@/components/AffiliateButton';
 import { 
   Star, 
   Check, 
@@ -148,15 +149,14 @@ export default async function AccountDetailPage({ params }: Props) {
                 <span className="text-[11px] text-slate-500 block mt-1">{bank.bonus_short}</span>
               </div>
 
-              <a
-                href={bank.affiliate_url}
-                target="_blank"
-                rel="noopener noreferrer sponsored"
+              <AffiliateButton
+                bankName={bank.bank}
+                accountName={bank.account_name}
+                affiliateUrl={bank.affiliate_url}
+                offerId={bank.id}
+                label="PRZEJDŹ DO BANKU"
                 className="w-full flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl text-sm font-extrabold text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-md shadow-blue-500/20 hover:shadow-lg transition-all"
-              >
-                <span>PRZEJDŹ DO BANKU</span>
-                <ExternalLink className="w-4 h-4" />
-              </a>
+              />
 
               <div className="flex items-center justify-center gap-1 text-[11px] text-slate-500 mt-3">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
@@ -345,15 +345,14 @@ export default async function AccountDetailPage({ params }: Props) {
             <p className="text-slate-300 text-sm max-w-xl mx-auto mb-6">
               Załóż {bank.account_name} w {bank.bank} w 15 minut online przez bezpieczny wniosek banku.
             </p>
-            <a
-              href={bank.affiliate_url}
-              target="_blank"
-              rel="noopener noreferrer sponsored"
+            <AffiliateButton
+              bankName={bank.bank}
+              accountName={bank.account_name}
+              affiliateUrl={bank.affiliate_url}
+              offerId={bank.id}
+              label="PRZEJDŹ DO BANKU"
               className="inline-flex items-center gap-2 py-4 px-8 rounded-xl text-base font-extrabold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-xl transition-all"
-            >
-              <span>PRZEJDŹ DO BANKU</span>
-              <ExternalLink className="w-5 h-5" />
-            </a>
+            />
             <p className="text-xs text-slate-400 mt-3">
               Link partnerski • Otwarcie konta bez wychodzenia z domu
             </p>

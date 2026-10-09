@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { BankOffer } from '@/types/bank';
-import { trackAffiliateClick, trackEvent } from '@/lib/analytics';
+import { trackAffiliateClick, trackOfferClick } from '@/lib/analytics';
 import { 
   Check, 
   ExternalLink, 
@@ -33,7 +33,26 @@ export const OfferCard: React.FC<OfferCardProps> = ({
   rankPosition,
 }) => {
   const handleCtaClick = () => {
-    trackAffiliateClick(offer.bank, offer.account_name, offer.affiliate_url, offer.id);
+    trackAffiliateClick(offer.bank, offer.account_name, offer.affiliate_url, offer.id, rankPosition);
+    trackOfferClick({
+      bank_name: offer.bank,
+      account_name: offer.account_name,
+      offer_id: offer.id,
+      rank_position: rankPosition,
+      cta_label: 'SPRAWDŹ OFERTĘ',
+      destination_url: offer.affiliate_url,
+    });
+  };
+
+  const handleDetailsClick = () => {
+    trackOfferClick({
+      bank_name: offer.bank,
+      account_name: offer.account_name,
+      offer_id: offer.id,
+      rank_position: rankPosition,
+      cta_label: 'Szczegóły oferty',
+      destination_url: `/konto/${offer.slug}`,
+    });
   };
 
   return (
@@ -107,6 +126,7 @@ export const OfferCard: React.FC<OfferCardProps> = ({
               </span>
               <Link
                 href={`/konto/${offer.slug}`}
+                onClick={handleDetailsClick}
                 className="text-xl font-bold text-slate-900 hover:text-blue-600 transition-colors inline-block mt-0.5"
               >
                 {offer.account_name}
@@ -180,6 +200,7 @@ export const OfferCard: React.FC<OfferCardProps> = ({
         <div className="flex items-center gap-3 w-full sm:w-auto">
           <Link
             href={`/konto/${offer.slug}`}
+            onClick={handleDetailsClick}
             className="flex-1 sm:flex-initial text-center px-4 py-2.5 rounded-xl text-xs font-bold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 hover:text-slate-900 transition-colors"
           >
             Szczegóły oferty
