@@ -35,11 +35,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://kontoradar.pages.dev/',
   },
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION_TOKEN
-    ? {
-        google: process.env.NEXT_PUBLIC_GSC_VERIFICATION_TOKEN.trim(),
-      }
-    : undefined,
+  verification: {
+    google: (
+      process.env.NEXT_PUBLIC_GSC_VERIFICATION_TOKEN ||
+      'ZKAseaHP8O9kEQVcZtT2FNttY18RqTnUVrZeh6bTTy8'
+    ).trim(),
+  },
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
